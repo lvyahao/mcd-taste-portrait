@@ -1,5 +1,9 @@
 # 麦门人格 · 口味年报
 
+<p align="center">
+  <img src="docs/cover.png" alt="麦门人格 · 口味年报" width="100%">
+</p>
+
 > 麦当劳每年给你一份消费账单，但它从来不告诉你——
 > 你在深夜 23:40 点的那份巨无霸，到底是在填饱肚子，还是在给自己收尾。
 
@@ -41,6 +45,13 @@
 ────────────────────────────────────────────
 ```
 
+<details>
+<summary>展开完整报告长图（229 笔演示订单的真实输出）</summary>
+
+<img src="docs/preview.png" alt="完整报告">
+
+</details>
+
 > 第一次跑请务必加 `--demo`，它用内置演示数据，**不需要 MCP Token**，可以先把报告样式看完。
 
 ---
@@ -50,7 +61,7 @@
 ### 方式一：先看效果（零配置，30 秒）
 
 ```bash
-git clone https://github.com/lvyahao/mcd-taste-portrait.git
+git clone https://github.com/<your-name>/mcd-taste-portrait.git
 cd mcd-taste-portrait
 python src/main.py --demo
 ```
