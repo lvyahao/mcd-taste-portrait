@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>肌肉记忆型点单员 · 麦门人格</title>
+<style>
+:root{
+  --red:#C8102E; --red-deep:#8E0B20; --gold:#F2B705;
+  --ink:#191512; --ink-2:#3D362F; --muted:#7A7067;
+  --line:#E7DDCE; --paper:#FBF7F0; --card:#FFFFFF;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{
+  background:var(--paper); color:var(--ink);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+  font-size:15px; line-height:1.75; -webkit-font-smoothing:antialiased;
+}
+.sheet{max-width:880px;margin:0 auto;padding:0 28px 80px}
+.serif{font-family:"Songti SC","STSong","SimSun","Noto Serif SC",serif}
+
+/* ---------- Hero ---------- */
+.hero{position:relative;padding:72px 0 44px;border-bottom:2px solid var(--ink)}
+.kicker{font-size:12px;letter-spacing:.34em;color:var(--red);text-transform:uppercase;font-weight:600;margin-bottom:22px}
+.hero-main{display:grid;grid-template-columns:190px 1fr;gap:34px;align-items:center}
+.mark{
+  font-family:"Songti SC","STSong","SimSun",serif;
+  font-size:150px;line-height:.86;color:var(--red);
+  border:3px solid var(--red);border-radius:4px;
+  display:flex;align-items:center;justify-content:center;
+  width:190px;height:190px;letter-spacing:0;
+  box-shadow:10px 10px 0 rgba(200,16,46,.09);
+}
+.p-name{font-size:46px;line-height:1.16;font-weight:700;letter-spacing:-.5px}
+.p-en{font-size:12.5px;letter-spacing:.24em;color:var(--muted);text-transform:uppercase;margin-top:10px}
+.punch{
+  font-family:"Songti SC","STSong","SimSun",serif;
+  font-size:25px;line-height:1.5;color:var(--red-deep);
+  margin-top:20px;padding-left:16px;border-left:3px solid var(--gold);
+}
+.meta{margin-top:26px;font-size:12.5px;color:var(--muted);letter-spacing:.04em}
+.meta b{color:var(--ink-2);font-weight:600}
+.stamp{
+  position:absolute;top:52px;right:0;width:96px;height:96px;border:2px solid var(--red);
+  border-radius:50%;display:flex;flex-direction:column;align-items:center;justify-content:center;
+  color:var(--red);transform:rotate(9deg);opacity:.82;
+}
+.stamp span{font-size:10px;letter-spacing:.16em;line-height:1.5}
+.stamp b{font-family:"Songti SC",serif;font-size:21px;line-height:1.1}
+
+/* ---------- 通用分区 ---------- */
+section{padding:44px 0;border-bottom:1px solid var(--line)}
+section:last-of-type{border-bottom:none}
+h2{font-size:12px;letter-spacing:.3em;color:var(--muted);text-transform:uppercase;font-weight:600;margin-bottom:26px}
+h2 em{color:var(--red);font-style:normal}
+.lede{font-size:17px;line-height:1.95;color:var(--ink-2);max-width:66ch}
+.lede + .lede{margin-top:14px}
+
+/* ---------- 四轴 ---------- */
+.axis{margin-bottom:20px}
+.axis:last-child{margin-bottom:0}
+.axis-head{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:7px}
+.axis-name{font-size:15px;font-weight:600}
+.axis-name i{font-style:normal;font-size:11px;color:var(--muted);letter-spacing:.18em;margin-left:9px;text-transform:uppercase}
+.axis-score{font-family:"Songti SC",serif;font-size:21px;color:var(--red);font-variant-numeric:tabular-nums}
+.axis-track{height:7px;background:#EDE4D6;border-radius:4px;overflow:hidden}
+.axis-fill{height:100%;background:linear-gradient(90deg,var(--red),#E24B5E);border-radius:4px}
+.axis.pri .axis-fill{background:linear-gradient(90deg,var(--red-deep),var(--red))}
+.axis-desc{font-size:12px;color:var(--muted);margin-top:5px}
+.tag{display:inline-block;font-size:10px;letter-spacing:.14em;background:var(--red);color:#fff;padding:1px 7px;border-radius:2px;margin-left:8px;vertical-align:2px}
+
+/* ---------- 数字 ---------- */
+.grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line)}
+.cell{background:var(--card);padding:22px 18px}
+.cell .n{font-family:"Songti SC",serif;font-size:33px;line-height:1.1;color:var(--ink);font-variant-numeric:tabular-nums}
+.cell .n small{font-size:15px;color:var(--muted);margin-left:2px}
+.cell .l{font-size:11.5px;color:var(--muted);margin-top:8px;letter-spacing:.06em}
+
+/* ---------- 热力图 ---------- */
+.hm{display:grid;grid-template-columns:46px repeat(24,1fr);gap:3px;align-items:center}
+.hm .hl{font-size:10.5px;color:var(--muted)}
+.hm .hh{font-size:9.5px;color:var(--muted);text-align:center}
+.hm .hc{aspect-ratio:1;border-radius:2px;background:#F0E8DB}
+.legend{display:flex;align-items:center;gap:8px;margin-top:16px;font-size:11px;color:var(--muted)}
+.legend .sw{display:flex;gap:2px}
+.legend .sw i{width:13px;height:13px;border-radius:2px;display:block}
+
+/* ---------- 清单 ---------- */
+.rank{display:grid;grid-template-columns:26px 1fr 52px;gap:12px;align-items:center;padding:9px 0;border-bottom:1px dashed var(--line)}
+.rank:last-child{border-bottom:none}
+.rank .i{font-size:11px;color:var(--muted);font-variant-numeric:tabular-nums}
+.rank .nm{font-size:14.5px}
+.rank .bar{height:5px;background:var(--red);opacity:.75;border-radius:3px;margin-top:6px}
+.rank .c{text-align:right;font-size:13px;color:var(--ink-2);font-variant-numeric:tabular-nums}
+
+/* ---------- 营养 ---------- */
+.pills{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}
+.pill{background:var(--card);border:1px solid var(--line);padding:18px 14px;text-align:center}
+.pill .v{font-family:"Songti SC",serif;font-size:25px;color:var(--ink)}
+.pill .v small{font-size:12px;color:var(--muted)}
+.pill .k{font-size:11px;color:var(--muted);margin-top:6px;letter-spacing:.08em}
+
+/* ---------- 彩蛋 ---------- */
+.egg{background:var(--ink);color:#F6EFE3;padding:34px 32px;position:relative;overflow:hidden}
+.egg::after{content:"＋";position:absolute;right:22px;bottom:-26px;font-size:130px;color:rgba(242,183,5,.12);font-family:serif}
+.egg .h{font-size:11px;letter-spacing:.28em;color:var(--gold);margin-bottom:14px}
+.egg .combo{font-family:"Songti SC",serif;font-size:30px;line-height:1.4}
+.egg .why{font-size:13.5px;color:#C9BFAF;margin-top:14px;max-width:52ch}
+
+/* ---------- 证据 ---------- */
+.ev{display:flex;gap:16px;padding:16px 0;border-bottom:1px dashed var(--line)}
+.ev:last-child{border-bottom:none}
+.ev .num{font-family:"Songti SC",serif;font-size:15px;color:var(--red);flex:0 0 auto;width:22px}
+.ev p{font-size:14.5px;color:var(--ink-2)}
+
+/* ---------- 页脚 ---------- */
+footer{padding:40px 0 0;border-top:2px solid var(--ink);margin-top:8px}
+.fine{font-size:11.5px;color:var(--muted);line-height:1.85}
+.flaw{margin-top:24px;padding:18px 20px;background:#F5EDDE;border-left:3px solid var(--gold);font-size:14px;color:var(--ink-2)}
+.flaw b{color:var(--ink)}
+.warn{margin-top:26px;padding:16px 20px;background:#FFF4F0;border:1px solid #F0C9BE;font-size:13.5px;color:#8A3A22}
+.warn b{color:#7A2010}
+
+@media (max-width:760px){
+  .sheet{padding:0 18px 60px}
+  .hero-main{grid-template-columns:1fr;gap:22px}
+  .mark{width:132px;height:132px;font-size:104px}
+  .p-name{font-size:34px}
+  .punch{font-size:20px}
+  .stamp{display:none}
+  .grid4{grid-template-columns:repeat(2,1fr)}
+  .pills{grid-template-columns:repeat(2,1fr)}
+  .hm{grid-template-columns:40px repeat(24,1fr);gap:2px}
+}
+@media print{
+  body{background:#fff}
+  section{page-break-inside:avoid}
+}
+</style>
+</head>
+<body>
+<div class="sheet">
+
+<header class="hero">
+  <div class="stamp"><span>麦门人格</span><b>2026</b></div>
+  <div class="kicker">McDonald's Taste Portrait</div>
+  <div class="hero-main">
+    <div class="mark serif">记</div>
+    <div>
+      <h1 class="p-name serif">肌肉记忆型点单员</h1>
+      <div class="p-en">Muscle-Memory Orderer</div>
+      <div class="punch">券在哪、怎么叠、点哪个——你的手比脑子快。</div>
+      <div class="meta">
+        <b>2025-10-29 — 2026-10-20</b>　·　
+        <b>229</b> 笔订单　·　<b>180</b> 个活跃日
+      </div>
+    </div>
+  </div>
+</header>
+<section>
+  <h2>关于你 <em>/ 01</em></h2>
+  <p class="lede">你对这套系统的熟悉程度已经到了不用思考的地步：什么时候有券、哪张跟哪张能叠、哪套组合最划算，全都在手指里而不是在脑子里。你省下的钱不算多，但你享受的是「没有多花」这件事本身。</p>
+  <div class="flaw"><b>你的小毛病</b>　你的优惠券用得比你的健身卡勤。</div>
+  
+</section>
+<section>
+  <h2>四个轴 <em>/ 02</em></h2>
+  
+    <div class="axis pri">
+      <div class="axis-head">
+        <div class="axis-name">忠诚<i>Loyalty</i><span class="tag">主导</span></div>
+        <div class="axis-score">91</div>
+      </div>
+      <div class="axis-track"><div class="axis-fill" style="width:91%"></div></div>
+      <div class="axis-desc">你多常点同一批东西</div>
+    </div>
+    <div class="axis">
+      <div class="axis-head">
+        <div class="axis-name">精算<i>Optimizer</i></div>
+        <div class="axis-score">84</div>
+      </div>
+      <div class="axis-track"><div class="axis-fill" style="width:84%"></div></div>
+      <div class="axis-desc">你多常为价格动脑子</div>
+    </div>
+    <div class="axis">
+      <div class="axis-head">
+        <div class="axis-name">规律<i>Ritual</i></div>
+        <div class="axis-score">45</div>
+      </div>
+      <div class="axis-track"><div class="axis-fill" style="width:45%"></div></div>
+      <div class="axis-desc">你的下单时间有多稳定</div>
+    </div>
+    <div class="axis">
+      <div class="axis-head">
+        <div class="axis-name">犒赏<i>Gratification</i></div>
+        <div class="axis-score">36</div>
+      </div>
+      <div class="axis-track"><div class="axis-fill" style="width:36%"></div></div>
+      <div class="axis-desc">你多常把这一单当作奖励</div>
+    </div>
+</section>
+<section>
+  <h2>这一年的数字 <em>/ 03</em></h2>
+  <div class="grid4"><div class="cell"><div class="n">¥6,354</div><div class="l">实付总额</div></div><div class="cell"><div class="n">¥2,942</div><div class="l">一共省下 · 32%</div></div><div class="cell"><div class="n">68<small>%</small></div><div class="l">实付 / 原价</div></div><div class="cell"><div class="n">14<small>种</small></div><div class="l">点单组合形态</div></div></div>
+</section>
+<section>
+  <h2>你的节奏 <em>/ 04</em></h2>
+  <p class="lede" style="margin-bottom:26px">
+    峰值出现在 <b>12:00–13:00</b>，
+    最常下单的日子是 <b>周一</b>（52 次），
+    最长连续下单 <b>6</b> 天。
+  </p>
+  <div class="hm"><div class="hl"></div><div class="hh">0</div><div class="hh"></div><div class="hh"></div><div class="hh">3</div><div class="hh"></div><div class="hh"></div><div class="hh">6</div><div class="hh"></div><div class="hh"></div><div class="hh">9</div><div class="hh"></div><div class="hh"></div><div class="hh">12</div><div class="hh"></div><div class="hh"></div><div class="hh">15</div><div class="hh"></div><div class="hh"></div><div class="hh">18</div><div class="hh"></div><div class="hh"></div><div class="hh">21</div><div class="hh"></div><div class="hh"></div><div class="hl">周一</div><div class="hc" style="background:#F0E8DB" title="周一 00:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周一 01:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周一 02:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周一 03:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周一 04:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周一 05:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周一 06:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周一 07:00 · 0 单"></div><div class="hc" style="background:rgba(200,16,46,0.354)" title="周一 08:00 · 2 单"></div><div class="hc" style="background:rgba(200,16,46,0.476)" title="周一 09:00 · 4 单"></div><div class="hc" style="background:#F0E8DB" title="周一 10:00 · 0 单"></div><div class="hc" style="background:rgba(200,16,46,0.476)" title="周一 11:00 · 4 单"></div><div class="hc" style="background:rgba(200,16,46,1.000)" title="周一 12:00 · 17 单"></div><div class="hc" style="background:rgba(200,16,46,0.528)" title="周一 13:00 · 5 单"></div><div class="hc" style="background:#F0E8DB" title="周一 14:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周一 15:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周一 16:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周一 17:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周一 18:00 · 0 单"></div><div class="hc" style="background:rgba(200,16,46,0.419)" title="周一 19:00 · 3 单"></div><div class="hc" style="background:rgba(200,16,46,0.419)" title="周一 20:00 · 3 单"></div><div class="hc" style="background:#F0E8DB" title="周一 21:00 · 0 单"></div><div class="hc" style="background:rgba(200,16,46,0.577)" title="周一 22:00 · 6 单"></div><div class="hc" style="background:rgba(200,16,46,0.667)" title="周一 23:00 · 8 单"></div><div class="hl">周二</div><div class="hc" style="background:#F0E8DB" title="周二 00:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周二 01:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周二 02:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周二 03:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周二 04:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周二 05:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周二 06:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周二 07:00 · 0 单"></div><div class="hc" style="background:rgba(200,16,46,0.419)" title="周二 08:00 · 3 单"></div><div class="hc" style="background:rgba(200,16,46,0.276)" title="周二 09:00 · 1 单"></div><div class="hc" style="background:#F0E8DB" title="周二 10:00 · 0 单"></div><div class="hc" style="background:rgba(200,16,46,0.476)" title="周二 11:00 · 4 单"></div><div class="hc" style="background:rgba(200,16,46,0.826)" title="周二 12:00 · 12 单"></div><div class="hc" style="background:rgba(200,16,46,0.528)" title="周二 13:00 · 5 单"></div><div class="hc" style="background:#F0E8DB" title="周二 14:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周二 15:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周二 16:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周二 17:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周二 18:00 · 0 单"></div><div class="hc" style="background:rgba(200,16,46,0.276)" title="周二 19:00 · 1 单"></div><div class="hc" style="background:rgba(200,16,46,0.354)" title="周二 20:00 · 2 单"></div><div class="hc" style="background:#F0E8DB" title="周二 21:00 · 0 单"></div><div class="hc" style="background:rgba(200,16,46,0.419)" title="周二 22:00 · 3 单"></div><div class="hc" style="background:rgba(200,16,46,0.623)" title="周二 23:00 · 7 单"></div><div class="hl">周三</div><div class="hc" style="background:#F0E8DB" title="周三 00:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周三 01:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周三 02:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周三 03:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周三 04:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周三 05:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周三 06:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周三 07:00 · 0 单"></div><div class="hc" style="background:rgba(200,16,46,0.476)" title="周三 08:00 · 4 单"></div><div class="hc" style="background:rgba(200,16,46,0.354)" title="周三 09:00 · 2 单"></div><div class="hc" style="background:#F0E8DB" title="周三 10:00 · 0 单"></div><div class="hc" style="background:rgba(200,16,46,0.528)" title="周三 11:00 · 5 单"></div><div class="hc" style="background:rgba(200,16,46,0.862)" title="周三 12:00 · 13 单"></div><div class="hc" style="background:rgba(200,16,46,0.528)" title="周三 13:00 · 5 单"></div><div class="hc" style="background:#F0E8DB" title="周三 14:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周三 15:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周三 16:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周三 17:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周三 18:00 · 0 单"></div><div class="hc" style="background:rgba(200,16,46,0.476)" title="周三 19:00 · 4 单"></div><div class="hc" style="background:rgba(200,16,46,0.276)" title="周三 20:00 · 1 单"></div><div class="hc" style="background:#F0E8DB" title="周三 21:00 · 0 单"></div><div class="hc" style="background:rgba(200,16,46,0.354)" title="周三 22:00 · 2 单"></div><div class="hc" style="background:rgba(200,16,46,0.528)" title="周三 23:00 · 5 单"></div><div class="hl">周四</div><div class="hc" style="background:#F0E8DB" title="周四 00:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周四 01:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周四 02:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周四 03:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周四 04:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周四 05:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周四 06:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周四 07:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周四 08:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周四 09:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周四 10:00 · 0 单"></div><div class="hc" style="background:rgba(200,16,46,0.354)" title="周四 11:00 · 2 单"></div><div class="hc" style="background:rgba(200,16,46,0.898)" title="周四 12:00 · 14 单"></div><div class="hc" style="background:rgba(200,16,46,0.623)" title="周四 13:00 · 7 单"></div><div class="hc" style="background:#F0E8DB" title="周四 14:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周四 15:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周四 16:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周四 17:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周四 18:00 · 0 单"></div><div class="hc" style="background:rgba(200,16,46,0.419)" title="周四 19:00 · 3 单"></div><div class="hc" style="background:rgba(200,16,46,0.276)" title="周四 20:00 · 1 单"></div><div class="hc" style="background:#F0E8DB" title="周四 21:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周四 22:00 · 0 单"></div><div class="hc" style="background:rgba(200,16,46,0.419)" title="周四 23:00 · 3 单"></div><div class="hl">周五</div><div class="hc" style="background:#F0E8DB" title="周五 00:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周五 01:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周五 02:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周五 03:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周五 04:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周五 05:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周五 06:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周五 07:00 · 0 单"></div><div class="hc" style="background:rgba(200,16,46,0.476)" title="周五 08:00 · 4 单"></div><div class="hc" style="background:rgba(200,16,46,0.419)" title="周五 09:00 · 3 单"></div><div class="hc" style="background:#F0E8DB" title="周五 10:00 · 0 单"></div><div class="hc" style="background:rgba(200,16,46,0.276)" title="周五 11:00 · 1 单"></div><div class="hc" style="background:rgba(200,16,46,0.933)" title="周五 12:00 · 15 单"></div><div class="hc" style="background:rgba(200,16,46,0.577)" title="周五 13:00 · 6 单"></div><div class="hc" style="background:#F0E8DB" title="周五 14:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周五 15:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周五 16:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周五 17:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周五 18:00 · 0 单"></div><div class="hc" style="background:rgba(200,16,46,0.354)" title="周五 19:00 · 2 单"></div><div class="hc" style="background:rgba(200,16,46,0.419)" title="周五 20:00 · 3 单"></div><div class="hc" style="background:#F0E8DB" title="周五 21:00 · 0 单"></div><div class="hc" style="background:rgba(200,16,46,0.419)" title="周五 22:00 · 3 单"></div><div class="hc" style="background:rgba(200,16,46,0.667)" title="周五 23:00 · 8 单"></div><div class="hl">周六</div><div class="hc" style="background:#F0E8DB" title="周六 00:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周六 01:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周六 02:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周六 03:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周六 04:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周六 05:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周六 06:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周六 07:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周六 08:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周六 09:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周六 10:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周六 11:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周六 12:00 · 0 单"></div><div class="hc" style="background:rgba(200,16,46,0.276)" title="周六 13:00 · 1 单"></div><div class="hc" style="background:#F0E8DB" title="周六 14:00 · 0 单"></div><div class="hc" style="background:rgba(200,16,46,0.354)" title="周六 15:00 · 2 单"></div><div class="hc" style="background:rgba(200,16,46,0.528)" title="周六 16:00 · 5 单"></div><div class="hc" style="background:rgba(200,16,46,0.354)" title="周六 17:00 · 2 单"></div><div class="hc" style="background:#F0E8DB" title="周六 18:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周六 19:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周六 20:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周六 21:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周六 22:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周六 23:00 · 0 单"></div><div class="hl">周日</div><div class="hc" style="background:#F0E8DB" title="周日 00:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周日 01:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周日 02:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周日 03:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周日 04:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周日 05:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周日 06:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周日 07:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周日 08:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周日 09:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周日 10:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周日 11:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周日 12:00 · 0 单"></div><div class="hc" style="background:rgba(200,16,46,0.354)" title="周日 13:00 · 2 单"></div><div class="hc" style="background:#F0E8DB" title="周日 14:00 · 0 单"></div><div class="hc" style="background:rgba(200,16,46,0.419)" title="周日 15:00 · 3 单"></div><div class="hc" style="background:rgba(200,16,46,0.623)" title="周日 16:00 · 7 单"></div><div class="hc" style="background:rgba(200,16,46,0.276)" title="周日 17:00 · 1 单"></div><div class="hc" style="background:#F0E8DB" title="周日 18:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周日 19:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周日 20:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周日 21:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周日 22:00 · 0 单"></div><div class="hc" style="background:#F0E8DB" title="周日 23:00 · 0 单"></div></div>
+  <div class="legend"><span>少</span><span class="sw"><i style="background:rgba(200,16,46,0.419)"></i><i style="background:rgba(200,16,46,0.577)"></i><i style="background:rgba(200,16,46,0.709)"></i><i style="background:rgba(200,16,46,0.862)"></i><i style="background:rgba(200,16,46,1.000)"></i></span><span>多</span></div>
+</section>
+<section>
+  <h2>常点清单 <em>/ 05</em></h2>
+  
+    <div class="rank">
+      <div class="i">01</div>
+      <div><div class="nm">中薯条</div><div class="bar" style="width:100%"></div></div>
+      <div class="c">123</div>
+    </div>
+    <div class="rank">
+      <div class="i">02</div>
+      <div><div class="nm">可口可乐中</div><div class="bar" style="width:97%"></div></div>
+      <div class="c">119</div>
+    </div>
+    <div class="rank">
+      <div class="i">03</div>
+      <div><div class="nm">巨无霸</div><div class="bar" style="width:39%"></div></div>
+      <div class="c">48</div>
+    </div>
+    <div class="rank">
+      <div class="i">04</div>
+      <div><div class="nm">麦辣鸡腿堡</div><div class="bar" style="width:37%"></div></div>
+      <div class="c">46</div>
+    </div>
+    <div class="rank">
+      <div class="i">05</div>
+      <div><div class="nm">麦旋风奥利奥</div><div class="bar" style="width:30%"></div></div>
+      <div class="c">37</div>
+    </div>
+    <div class="rank">
+      <div class="i">06</div>
+      <div><div class="nm">麦辣鸡翅2块</div><div class="bar" style="width:26%"></div></div>
+      <div class="c">32</div>
+    </div>
+    <div class="rank">
+      <div class="i">07</div>
+      <div><div class="nm">大薯条</div><div class="bar" style="width:22%"></div></div>
+      <div class="c">27</div>
+    </div>
+    <div class="rank">
+      <div class="i">08</div>
+      <div><div class="nm">麦香鸡</div><div class="bar" style="width:19%"></div></div>
+      <div class="c">23</div>
+    </div>
+</section>
+<section>
+  <h2>平均每一单 <em>/ 06</em></h2>
+  <div class="pills"><div class="pill"><div class="v">872<small>kcal</small></div><div class="k">热量</div></div><div class="pill"><div class="v">27<small>g</small></div><div class="k">蛋白质</div></div><div class="pill"><div class="v">37<small>g</small></div><div class="k">脂肪</div></div><div class="pill"><div class="v">1168<small>mg</small></div><div class="k">钠</div></div><div class="pill"><div class="v">42<small>g</small></div><div class="k">糖</div></div></div>
+  <p class="fine" style="margin-top:18px">
+    营养数值按常见餐品的公开参考值折算，仅用于相对比较，不构成营养或医疗建议。
+  </p>
+</section>
+<section style="padding:0;border-bottom:none">
+  <div class="egg">
+    <div class="h">一个你大概没试过的组合</div>
+    <div class="combo">巨无霸 ＋ 麦辣鸡翅2块</div>
+    <div class="why">你点过32次麦辣鸡翅2块，但从来没有和巨无霸出现在同一单里。　下次可以试试——不保证好吃，但保证你没这样点过。</div>
+  </div>
+</section>
+<section>
+  <h2>为什么这么判断 <em>/ 07</em></h2>
+  <div class="ev"><div class="num">01</div><p>你一共只形成了14种点单组合，最常见的那一种是「中薯条 + 可口可乐中 + 麦辣鸡腿堡」，重复了28次。</p></div><div class="ev"><div class="num">02</div><p>你有91%的订单用到了券，实付压到原价的68%——这套动作已经不需要思考了。</p></div>
+</section>
+<footer>
+  <p class="fine">
+    数据来源：内置演示数据　·　订单区间 2025-10-29 — 2026-10-20　·　
+    共 229 笔<br>
+    四个轴（忠诚 / 规律 / 犒赏 / 精算）均由订单行为直接计算，所有指标都可以在原始订单里被指出来：没有随机，没有星座式分组。<br>
+    人格是一种描述，不是一种诊断。它说的是「你过去这一年怎么吃」，不是「你是什么人」。<br><br>
+    本报告由开源项目 mcd-taste-portrait 生成，非麦当劳官方产品。
+    餐品信息与价格以麦当劳官方渠道为准。
+  </p>
+</footer>
+</div>
+</body>
+</html>

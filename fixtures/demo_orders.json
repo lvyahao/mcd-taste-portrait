@@ -1,0 +1,6851 @@
+{
+  "meta": {
+    "source": "demo",
+    "seed": 1024,
+    "note": "演示数据，用于在没有真实订单的情况下体验完整报告效果。",
+    "generatedAt": "2026-10-22T00:12:00+08:00",
+    "orderCount": 229,
+    "rangeStart": "2025-10-29T12:28:00+08:00",
+    "rangeEnd": "2026-10-20T23:33:00+08:00"
+  },
+  "orders": [
+    {
+      "orderId": "202510290001",
+      "createdAt": "2025-10-29T12:28:00+08:00",
+      "channel": "delivery",
+      "storeName": "麦当劳(望京SOHO店)",
+      "items": [
+        {
+          "code": "SKU49210",
+          "name": "双层吉士汉堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 18.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU62312",
+          "name": "雪碧中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 41.0,
+      "payPrice": 26.0,
+      "coupon": "1+1随心配+中薯条"
+    },
+    {
+      "orderId": "202510290002",
+      "createdAt": "2025-10-29T19:40:00+08:00",
+      "channel": "dinein",
+      "storeName": "麦当劳(中关村大街店)",
+      "items": [
+        {
+          "code": "SKU40197",
+          "name": "麦香鸡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 15.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        }
+      ],
+      "originalPrice": 27.5,
+      "payPrice": 17.5,
+      "coupon": "1+1随心配"
+    },
+    {
+      "orderId": "202510300003",
+      "createdAt": "2025-10-30T12:55:00+08:00",
+      "channel": "delivery",
+      "storeName": "麦当劳(知春路店)",
+      "items": [
+        {
+          "code": "SKU52755",
+          "name": "麦辣鸡腿堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 23.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 46.0,
+      "payPrice": 29.5,
+      "coupon": "1+1随心配+中薯条"
+    },
+    {
+      "orderId": "202510310004",
+      "createdAt": "2025-10-31T09:07:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(望京SOHO店)",
+      "items": [
+        {
+          "code": "SKU15714",
+          "name": "吉士蛋麦满分",
+          "category": "breakfast",
+          "qty": 1,
+          "unitPrice": 14.0
+        },
+        {
+          "code": "SKU18427",
+          "name": "美式咖啡",
+          "category": "coffee",
+          "qty": 1,
+          "unitPrice": 15.0
+        }
+      ],
+      "originalPrice": 29.0,
+      "payPrice": 17.0,
+      "coupon": "早餐组合"
+    },
+    {
+      "orderId": "202510310005",
+      "createdAt": "2025-10-31T23:51:00+08:00",
+      "channel": "delivery",
+      "storeName": "麦当劳(知春路店)",
+      "items": [
+        {
+          "code": "SKU10107",
+          "name": "巨无霸",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 26.0
+        },
+        {
+          "code": "SKU57055",
+          "name": "大薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 15.0
+        },
+        {
+          "code": "SKU57978",
+          "name": "麦旋风奥利奥",
+          "category": "dessert",
+          "qty": 1,
+          "unitPrice": 14.5
+        }
+      ],
+      "originalPrice": 55.5,
+      "payPrice": 42.0,
+      "coupon": "夜宵满减"
+    },
+    {
+      "orderId": "202511030006",
+      "createdAt": "2025-11-03T12:03:00+08:00",
+      "channel": "dinein",
+      "storeName": "麦当劳(中关村大街店)",
+      "items": [
+        {
+          "code": "SKU26383",
+          "name": "那么大鸡排",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 17.0
+        },
+        {
+          "code": "SKU25003",
+          "name": "麦辣鸡翅2块",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 13.0
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 40.5,
+      "payPrice": 28.0,
+      "coupon": "小食组合券"
+    },
+    {
+      "orderId": "202511040007",
+      "createdAt": "2025-11-04T09:51:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(五道口购物中心店)",
+      "items": [
+        {
+          "code": "SKU15714",
+          "name": "吉士蛋麦满分",
+          "category": "breakfast",
+          "qty": 1,
+          "unitPrice": 14.0
+        },
+        {
+          "code": "SKU18427",
+          "name": "美式咖啡",
+          "category": "coffee",
+          "qty": 1,
+          "unitPrice": 15.0
+        }
+      ],
+      "originalPrice": 29.0,
+      "payPrice": 17.0,
+      "coupon": "早餐组合"
+    },
+    {
+      "orderId": "202511050008",
+      "createdAt": "2025-11-05T13:23:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(中关村大街店)",
+      "items": [
+        {
+          "code": "SKU52755",
+          "name": "麦辣鸡腿堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 23.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 46.0,
+      "payPrice": 29.5,
+      "coupon": "1+1随心配+中薯条"
+    },
+    {
+      "orderId": "202511070009",
+      "createdAt": "2025-11-07T12:49:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(中关村大街店)",
+      "items": [
+        {
+          "code": "SKU87613",
+          "name": "板烧鸡腿堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 23.5
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 46.5,
+      "payPrice": 30.0,
+      "coupon": "超值三件套"
+    },
+    {
+      "orderId": "202511100010",
+      "createdAt": "2025-11-10T12:23:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(中关村大街店)",
+      "items": [
+        {
+          "code": "SKU49210",
+          "name": "双层吉士汉堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 18.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU62312",
+          "name": "雪碧中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 41.0,
+      "payPrice": 26.0,
+      "coupon": "1+1随心配+中薯条"
+    },
+    {
+      "orderId": "202511110011",
+      "createdAt": "2025-11-11T23:09:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(知春路店)",
+      "items": [
+        {
+          "code": "SKU10107",
+          "name": "巨无霸",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 26.0
+        },
+        {
+          "code": "SKU57055",
+          "name": "大薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 15.0
+        },
+        {
+          "code": "SKU57978",
+          "name": "麦旋风奥利奥",
+          "category": "dessert",
+          "qty": 1,
+          "unitPrice": 14.5
+        }
+      ],
+      "originalPrice": 55.5,
+      "payPrice": 42.0,
+      "coupon": "夜宵满减"
+    },
+    {
+      "orderId": "202511120012",
+      "createdAt": "2025-11-12T23:41:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(五道口购物中心店)",
+      "items": [
+        {
+          "code": "SKU10107",
+          "name": "巨无霸",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 26.0
+        },
+        {
+          "code": "SKU57055",
+          "name": "大薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 15.0
+        },
+        {
+          "code": "SKU57978",
+          "name": "麦旋风奥利奥",
+          "category": "dessert",
+          "qty": 1,
+          "unitPrice": 14.5
+        }
+      ],
+      "originalPrice": 55.5,
+      "payPrice": 42.0,
+      "coupon": "夜宵满减"
+    },
+    {
+      "orderId": "202511130013",
+      "createdAt": "2025-11-13T19:40:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(五道口购物中心店)",
+      "items": [
+        {
+          "code": "SKU40197",
+          "name": "麦香鸡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 15.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        }
+      ],
+      "originalPrice": 27.5,
+      "payPrice": 17.5,
+      "coupon": "1+1随心配"
+    },
+    {
+      "orderId": "202511170014",
+      "createdAt": "2025-11-17T11:52:00+08:00",
+      "channel": "dinein",
+      "storeName": "麦当劳(五道口购物中心店)",
+      "items": [
+        {
+          "code": "SKU52755",
+          "name": "麦辣鸡腿堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 23.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 46.0,
+      "payPrice": 29.5,
+      "coupon": "1+1随心配+中薯条"
+    },
+    {
+      "orderId": "202511190015",
+      "createdAt": "2025-11-19T12:17:00+08:00",
+      "channel": "delivery",
+      "storeName": "麦当劳(西二旗地铁站店)",
+      "items": [
+        {
+          "code": "SKU52755",
+          "name": "麦辣鸡腿堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 23.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 46.0,
+      "payPrice": 29.5,
+      "coupon": "1+1随心配+中薯条"
+    },
+    {
+      "orderId": "202511200016",
+      "createdAt": "2025-11-20T13:16:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(中关村大街店)",
+      "items": [
+        {
+          "code": "SKU87613",
+          "name": "板烧鸡腿堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 23.5
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 46.5,
+      "payPrice": 30.0,
+      "coupon": "超值三件套"
+    },
+    {
+      "orderId": "202511210017",
+      "createdAt": "2025-11-21T12:31:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(西二旗地铁站店)",
+      "items": [
+        {
+          "code": "SKU87613",
+          "name": "板烧鸡腿堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 23.5
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 46.5,
+      "payPrice": 30.0,
+      "coupon": "超值三件套"
+    },
+    {
+      "orderId": "202511240018",
+      "createdAt": "2025-11-24T23:24:00+08:00",
+      "channel": "delivery",
+      "storeName": "麦当劳(西二旗地铁站店)",
+      "items": [
+        {
+          "code": "SKU10107",
+          "name": "巨无霸",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 26.0
+        },
+        {
+          "code": "SKU57055",
+          "name": "大薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 15.0
+        },
+        {
+          "code": "SKU57978",
+          "name": "麦旋风奥利奥",
+          "category": "dessert",
+          "qty": 1,
+          "unitPrice": 14.5
+        }
+      ],
+      "originalPrice": 55.5,
+      "payPrice": 42.0,
+      "coupon": "夜宵满减"
+    },
+    {
+      "orderId": "202511250019",
+      "createdAt": "2025-11-25T12:37:00+08:00",
+      "channel": "dinein",
+      "storeName": "麦当劳(西二旗地铁站店)",
+      "items": [
+        {
+          "code": "SKU50377",
+          "name": "麦乐鸡5块",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 15.5
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 38.5,
+      "payPrice": 25.0,
+      "coupon": "小食组合券"
+    },
+    {
+      "orderId": "202511260020",
+      "createdAt": "2025-11-26T12:15:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(知春路店)",
+      "items": [
+        {
+          "code": "SKU50377",
+          "name": "麦乐鸡5块",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 15.5
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 38.5,
+      "payPrice": 25.0,
+      "coupon": "小食组合券"
+    },
+    {
+      "orderId": "202511270021",
+      "createdAt": "2025-11-27T13:08:00+08:00",
+      "channel": "dinein",
+      "storeName": "麦当劳(中关村大街店)",
+      "items": [
+        {
+          "code": "SKU87613",
+          "name": "板烧鸡腿堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 23.5
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 46.5,
+      "payPrice": 30.0,
+      "coupon": "超值三件套"
+    },
+    {
+      "orderId": "202511280022",
+      "createdAt": "2025-11-28T12:35:00+08:00",
+      "channel": "delivery",
+      "storeName": "麦当劳(中关村大街店)",
+      "items": [
+        {
+          "code": "SKU87613",
+          "name": "板烧鸡腿堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 23.5
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 46.5,
+      "payPrice": 30.0,
+      "coupon": "超值三件套"
+    },
+    {
+      "orderId": "202511280023",
+      "createdAt": "2025-11-28T23:58:00+08:00",
+      "channel": "delivery",
+      "storeName": "麦当劳(中关村大街店)",
+      "items": [
+        {
+          "code": "SKU52755",
+          "name": "麦辣鸡腿堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 23.0
+        },
+        {
+          "code": "SKU25003",
+          "name": "麦辣鸡翅2块",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 13.0
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 46.5,
+      "payPrice": 33.0,
+      "coupon": "夜宵满减"
+    },
+    {
+      "orderId": "202512030024",
+      "createdAt": "2025-12-03T22:47:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(知春路店)",
+      "items": [
+        {
+          "code": "SKU10107",
+          "name": "巨无霸",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 26.0
+        },
+        {
+          "code": "SKU57055",
+          "name": "大薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 15.0
+        },
+        {
+          "code": "SKU57978",
+          "name": "麦旋风奥利奥",
+          "category": "dessert",
+          "qty": 1,
+          "unitPrice": 14.5
+        }
+      ],
+      "originalPrice": 55.5,
+      "payPrice": 42.0,
+      "coupon": "夜宵满减"
+    },
+    {
+      "orderId": "202512060025",
+      "createdAt": "2025-12-06T16:11:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(西二旗地铁站店)",
+      "items": [
+        {
+          "code": "SKU85792",
+          "name": "香芋派",
+          "category": "dessert",
+          "qty": 1,
+          "unitPrice": 8.0
+        },
+        {
+          "code": "SKU18478",
+          "name": "拿铁",
+          "category": "coffee",
+          "qty": 1,
+          "unitPrice": 19.0
+        }
+      ],
+      "originalPrice": 27.0,
+      "payPrice": 27.0,
+      "coupon": ""
+    },
+    {
+      "orderId": "202512080026",
+      "createdAt": "2025-12-08T19:04:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(望京SOHO店)",
+      "items": [
+        {
+          "code": "SKU40197",
+          "name": "麦香鸡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 15.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        }
+      ],
+      "originalPrice": 27.5,
+      "payPrice": 17.5,
+      "coupon": "1+1随心配"
+    },
+    {
+      "orderId": "202512090027",
+      "createdAt": "2025-12-09T13:25:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(知春路店)",
+      "items": [
+        {
+          "code": "SKU49210",
+          "name": "双层吉士汉堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 18.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU62312",
+          "name": "雪碧中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 41.0,
+      "payPrice": 26.0,
+      "coupon": "1+1随心配+中薯条"
+    },
+    {
+      "orderId": "202512110028",
+      "createdAt": "2025-12-11T12:23:00+08:00",
+      "channel": "delivery",
+      "storeName": "麦当劳(中关村大街店)",
+      "items": [
+        {
+          "code": "SKU87613",
+          "name": "板烧鸡腿堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 23.5
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 46.5,
+      "payPrice": 30.0,
+      "coupon": "超值三件套"
+    },
+    {
+      "orderId": "202512110029",
+      "createdAt": "2025-12-11T19:28:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(西二旗地铁站店)",
+      "items": [
+        {
+          "code": "SKU40197",
+          "name": "麦香鸡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 15.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        }
+      ],
+      "originalPrice": 27.5,
+      "payPrice": 17.5,
+      "coupon": "1+1随心配"
+    },
+    {
+      "orderId": "202512120031",
+      "createdAt": "2025-12-12T08:17:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(西二旗地铁站店)",
+      "items": [
+        {
+          "code": "SKU49417",
+          "name": "猪柳蛋麦满分",
+          "category": "breakfast",
+          "qty": 1,
+          "unitPrice": 16.5
+        },
+        {
+          "code": "SKU18427",
+          "name": "美式咖啡",
+          "category": "coffee",
+          "qty": 1,
+          "unitPrice": 15.0
+        }
+      ],
+      "originalPrice": 31.5,
+      "payPrice": 19.0,
+      "coupon": "早餐组合"
+    },
+    {
+      "orderId": "202512120030",
+      "createdAt": "2025-12-12T12:49:00+08:00",
+      "channel": "dinein",
+      "storeName": "麦当劳(中关村大街店)",
+      "items": [
+        {
+          "code": "SKU10107",
+          "name": "巨无霸",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 26.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 49.0,
+      "payPrice": 31.0,
+      "coupon": "超值三件套"
+    },
+    {
+      "orderId": "202512160032",
+      "createdAt": "2025-12-16T12:08:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(中关村大街店)",
+      "items": [
+        {
+          "code": "SKU10107",
+          "name": "巨无霸",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 26.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 49.0,
+      "payPrice": 31.0,
+      "coupon": "超值三件套"
+    },
+    {
+      "orderId": "202512170033",
+      "createdAt": "2025-12-17T19:28:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(西二旗地铁站店)",
+      "items": [
+        {
+          "code": "SKU40197",
+          "name": "麦香鸡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 15.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        }
+      ],
+      "originalPrice": 27.5,
+      "payPrice": 17.5,
+      "coupon": "1+1随心配"
+    },
+    {
+      "orderId": "202512180034",
+      "createdAt": "2025-12-18T19:36:00+08:00",
+      "channel": "dinein",
+      "storeName": "麦当劳(中关村大街店)",
+      "items": [
+        {
+          "code": "SKU40197",
+          "name": "麦香鸡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 15.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        }
+      ],
+      "originalPrice": 27.5,
+      "payPrice": 17.5,
+      "coupon": "1+1随心配"
+    },
+    {
+      "orderId": "202512190035",
+      "createdAt": "2025-12-19T12:50:00+08:00",
+      "channel": "dinein",
+      "storeName": "麦当劳(五道口购物中心店)",
+      "items": [
+        {
+          "code": "SKU52755",
+          "name": "麦辣鸡腿堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 23.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 46.0,
+      "payPrice": 29.5,
+      "coupon": "1+1随心配+中薯条"
+    },
+    {
+      "orderId": "202512210037",
+      "createdAt": "2025-12-21T13:59:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(西二旗地铁站店)",
+      "items": [
+        {
+          "code": "SKU10107",
+          "name": "巨无霸",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 26.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 49.0,
+      "payPrice": 31.0,
+      "coupon": "超值三件套"
+    },
+    {
+      "orderId": "202512210036",
+      "createdAt": "2025-12-21T17:33:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(望京SOHO店)",
+      "items": [
+        {
+          "code": "SKU57978",
+          "name": "麦旋风奥利奥",
+          "category": "dessert",
+          "qty": 1,
+          "unitPrice": 14.5
+        },
+        {
+          "code": "SKU78170",
+          "name": "原味甜筒",
+          "category": "dessert",
+          "qty": 1,
+          "unitPrice": 4.0
+        }
+      ],
+      "originalPrice": 18.5,
+      "payPrice": 18.5,
+      "coupon": ""
+    },
+    {
+      "orderId": "202512220038",
+      "createdAt": "2025-12-22T09:42:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(中关村大街店)",
+      "items": [
+        {
+          "code": "SKU15714",
+          "name": "吉士蛋麦满分",
+          "category": "breakfast",
+          "qty": 1,
+          "unitPrice": 14.0
+        },
+        {
+          "code": "SKU18427",
+          "name": "美式咖啡",
+          "category": "coffee",
+          "qty": 1,
+          "unitPrice": 15.0
+        }
+      ],
+      "originalPrice": 29.0,
+      "payPrice": 17.0,
+      "coupon": "早餐组合"
+    },
+    {
+      "orderId": "202512230039",
+      "createdAt": "2025-12-23T20:32:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(知春路店)",
+      "items": [
+        {
+          "code": "SKU40197",
+          "name": "麦香鸡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 15.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        }
+      ],
+      "originalPrice": 27.5,
+      "payPrice": 17.5,
+      "coupon": "1+1随心配"
+    },
+    {
+      "orderId": "202512240040",
+      "createdAt": "2025-12-24T09:35:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(望京SOHO店)",
+      "items": [
+        {
+          "code": "SKU15714",
+          "name": "吉士蛋麦满分",
+          "category": "breakfast",
+          "qty": 1,
+          "unitPrice": 14.0
+        },
+        {
+          "code": "SKU18427",
+          "name": "美式咖啡",
+          "category": "coffee",
+          "qty": 1,
+          "unitPrice": 15.0
+        }
+      ],
+      "originalPrice": 29.0,
+      "payPrice": 17.0,
+      "coupon": "早餐组合"
+    },
+    {
+      "orderId": "202512250041",
+      "createdAt": "2025-12-25T23:49:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(西二旗地铁站店)",
+      "items": [
+        {
+          "code": "SKU52755",
+          "name": "麦辣鸡腿堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 23.0
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 33.5,
+      "payPrice": 26.0,
+      "coupon": "夜宵满减"
+    },
+    {
+      "orderId": "202512310042",
+      "createdAt": "2025-12-31T12:23:00+08:00",
+      "channel": "dinein",
+      "storeName": "麦当劳(西二旗地铁站店)",
+      "items": [
+        {
+          "code": "SKU50377",
+          "name": "麦乐鸡5块",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 15.5
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 38.5,
+      "payPrice": 25.0,
+      "coupon": "小食组合券"
+    },
+    {
+      "orderId": "202601010043",
+      "createdAt": "2026-01-01T13:17:00+08:00",
+      "channel": "delivery",
+      "storeName": "麦当劳(望京SOHO店)",
+      "items": [
+        {
+          "code": "SKU49210",
+          "name": "双层吉士汉堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 18.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU62312",
+          "name": "雪碧中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 41.0,
+      "payPrice": 26.0,
+      "coupon": "1+1随心配+中薯条"
+    },
+    {
+      "orderId": "202601050044",
+      "createdAt": "2026-01-05T11:27:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(知春路店)",
+      "items": [
+        {
+          "code": "SKU26383",
+          "name": "那么大鸡排",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 17.0
+        },
+        {
+          "code": "SKU25003",
+          "name": "麦辣鸡翅2块",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 13.0
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 40.5,
+      "payPrice": 28.0,
+      "coupon": "小食组合券"
+    },
+    {
+      "orderId": "202601050045",
+      "createdAt": "2026-01-05T22:25:00+08:00",
+      "channel": "delivery",
+      "storeName": "麦当劳(西二旗地铁站店)",
+      "items": [
+        {
+          "code": "SKU10107",
+          "name": "巨无霸",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 26.0
+        },
+        {
+          "code": "SKU57055",
+          "name": "大薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 15.0
+        },
+        {
+          "code": "SKU57978",
+          "name": "麦旋风奥利奥",
+          "category": "dessert",
+          "qty": 1,
+          "unitPrice": 14.5
+        }
+      ],
+      "originalPrice": 55.5,
+      "payPrice": 42.0,
+      "coupon": "夜宵满减"
+    },
+    {
+      "orderId": "202601070046",
+      "createdAt": "2026-01-07T12:35:00+08:00",
+      "channel": "delivery",
+      "storeName": "麦当劳(中关村大街店)",
+      "items": [
+        {
+          "code": "SKU49210",
+          "name": "双层吉士汉堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 18.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU62312",
+          "name": "雪碧中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 41.0,
+      "payPrice": 26.0,
+      "coupon": "1+1随心配+中薯条"
+    },
+    {
+      "orderId": "202601080047",
+      "createdAt": "2026-01-08T12:28:00+08:00",
+      "channel": "delivery",
+      "storeName": "麦当劳(望京SOHO店)",
+      "items": [
+        {
+          "code": "SKU50377",
+          "name": "麦乐鸡5块",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 15.5
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 38.5,
+      "payPrice": 25.0,
+      "coupon": "小食组合券"
+    },
+    {
+      "orderId": "202601120048",
+      "createdAt": "2026-01-12T12:24:00+08:00",
+      "channel": "delivery",
+      "storeName": "麦当劳(中关村大街店)",
+      "items": [
+        {
+          "code": "SKU10107",
+          "name": "巨无霸",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 26.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 49.0,
+      "payPrice": 31.0,
+      "coupon": "超值三件套"
+    },
+    {
+      "orderId": "202601130049",
+      "createdAt": "2026-01-13T12:49:00+08:00",
+      "channel": "dinein",
+      "storeName": "麦当劳(中关村大街店)",
+      "items": [
+        {
+          "code": "SKU52755",
+          "name": "麦辣鸡腿堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 23.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 46.0,
+      "payPrice": 29.5,
+      "coupon": "1+1随心配+中薯条"
+    },
+    {
+      "orderId": "202601140050",
+      "createdAt": "2026-01-14T12:42:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(西二旗地铁站店)",
+      "items": [
+        {
+          "code": "SKU26383",
+          "name": "那么大鸡排",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 17.0
+        },
+        {
+          "code": "SKU25003",
+          "name": "麦辣鸡翅2块",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 13.0
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 40.5,
+      "payPrice": 28.0,
+      "coupon": "小食组合券"
+    },
+    {
+      "orderId": "202601190051",
+      "createdAt": "2026-01-19T12:55:00+08:00",
+      "channel": "delivery",
+      "storeName": "麦当劳(望京SOHO店)",
+      "items": [
+        {
+          "code": "SKU87613",
+          "name": "板烧鸡腿堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 23.5
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 46.5,
+      "payPrice": 30.0,
+      "coupon": "超值三件套"
+    },
+    {
+      "orderId": "202601190052",
+      "createdAt": "2026-01-19T19:01:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(知春路店)",
+      "items": [
+        {
+          "code": "SKU40197",
+          "name": "麦香鸡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 15.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        }
+      ],
+      "originalPrice": 27.5,
+      "payPrice": 17.5,
+      "coupon": "1+1随心配"
+    },
+    {
+      "orderId": "202601230053",
+      "createdAt": "2026-01-23T08:26:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(中关村大街店)",
+      "items": [
+        {
+          "code": "SKU49417",
+          "name": "猪柳蛋麦满分",
+          "category": "breakfast",
+          "qty": 1,
+          "unitPrice": 16.5
+        },
+        {
+          "code": "SKU18427",
+          "name": "美式咖啡",
+          "category": "coffee",
+          "qty": 1,
+          "unitPrice": 15.0
+        }
+      ],
+      "originalPrice": 31.5,
+      "payPrice": 19.0,
+      "coupon": "早餐组合"
+    },
+    {
+      "orderId": "202601250054",
+      "createdAt": "2026-01-25T16:16:00+08:00",
+      "channel": "dinein",
+      "storeName": "麦当劳(望京SOHO店)",
+      "items": [
+        {
+          "code": "SKU57978",
+          "name": "麦旋风奥利奥",
+          "category": "dessert",
+          "qty": 1,
+          "unitPrice": 14.5
+        },
+        {
+          "code": "SKU78170",
+          "name": "原味甜筒",
+          "category": "dessert",
+          "qty": 1,
+          "unitPrice": 4.0
+        }
+      ],
+      "originalPrice": 18.5,
+      "payPrice": 18.5,
+      "coupon": ""
+    },
+    {
+      "orderId": "202601260055",
+      "createdAt": "2026-01-26T08:13:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(西二旗地铁站店)",
+      "items": [
+        {
+          "code": "SKU49417",
+          "name": "猪柳蛋麦满分",
+          "category": "breakfast",
+          "qty": 1,
+          "unitPrice": 16.5
+        },
+        {
+          "code": "SKU18427",
+          "name": "美式咖啡",
+          "category": "coffee",
+          "qty": 1,
+          "unitPrice": 15.0
+        }
+      ],
+      "originalPrice": 31.5,
+      "payPrice": 19.0,
+      "coupon": "早餐组合"
+    },
+    {
+      "orderId": "202601290056",
+      "createdAt": "2026-01-29T11:50:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(西二旗地铁站店)",
+      "items": [
+        {
+          "code": "SKU87613",
+          "name": "板烧鸡腿堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 23.5
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 46.5,
+      "payPrice": 30.0,
+      "coupon": "超值三件套"
+    },
+    {
+      "orderId": "202601300057",
+      "createdAt": "2026-01-30T13:23:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(中关村大街店)",
+      "items": [
+        {
+          "code": "SKU52755",
+          "name": "麦辣鸡腿堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 23.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 46.0,
+      "payPrice": 29.5,
+      "coupon": "1+1随心配+中薯条"
+    },
+    {
+      "orderId": "202601300058",
+      "createdAt": "2026-01-30T23:21:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(知春路店)",
+      "items": [
+        {
+          "code": "SKU10107",
+          "name": "巨无霸",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 26.0
+        },
+        {
+          "code": "SKU57055",
+          "name": "大薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 15.0
+        },
+        {
+          "code": "SKU57978",
+          "name": "麦旋风奥利奥",
+          "category": "dessert",
+          "qty": 1,
+          "unitPrice": 14.5
+        }
+      ],
+      "originalPrice": 55.5,
+      "payPrice": 42.0,
+      "coupon": "夜宵满减"
+    },
+    {
+      "orderId": "202602020059",
+      "createdAt": "2026-02-02T11:32:00+08:00",
+      "channel": "dinein",
+      "storeName": "麦当劳(知春路店)",
+      "items": [
+        {
+          "code": "SKU26383",
+          "name": "那么大鸡排",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 17.0
+        },
+        {
+          "code": "SKU25003",
+          "name": "麦辣鸡翅2块",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 13.0
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 40.5,
+      "payPrice": 28.0,
+      "coupon": "小食组合券"
+    },
+    {
+      "orderId": "202602040060",
+      "createdAt": "2026-02-04T12:24:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(五道口购物中心店)",
+      "items": [
+        {
+          "code": "SKU10107",
+          "name": "巨无霸",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 26.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 49.0,
+      "payPrice": 31.0,
+      "coupon": "超值三件套"
+    },
+    {
+      "orderId": "202602050061",
+      "createdAt": "2026-02-05T12:06:00+08:00",
+      "channel": "dinein",
+      "storeName": "麦当劳(望京SOHO店)",
+      "items": [
+        {
+          "code": "SKU87613",
+          "name": "板烧鸡腿堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 23.5
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 46.5,
+      "payPrice": 30.0,
+      "coupon": "超值三件套"
+    },
+    {
+      "orderId": "202602090062",
+      "createdAt": "2026-02-09T12:57:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(知春路店)",
+      "items": [
+        {
+          "code": "SKU49210",
+          "name": "双层吉士汉堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 18.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU62312",
+          "name": "雪碧中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 41.0,
+      "payPrice": 26.0,
+      "coupon": "1+1随心配+中薯条"
+    },
+    {
+      "orderId": "202602120063",
+      "createdAt": "2026-02-12T12:17:00+08:00",
+      "channel": "delivery",
+      "storeName": "麦当劳(望京SOHO店)",
+      "items": [
+        {
+          "code": "SKU87613",
+          "name": "板烧鸡腿堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 23.5
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 46.5,
+      "payPrice": 30.0,
+      "coupon": "超值三件套"
+    },
+    {
+      "orderId": "202602120064",
+      "createdAt": "2026-02-12T23:31:00+08:00",
+      "channel": "delivery",
+      "storeName": "麦当劳(望京SOHO店)",
+      "items": [
+        {
+          "code": "SKU10107",
+          "name": "巨无霸",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 26.0
+        },
+        {
+          "code": "SKU57055",
+          "name": "大薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 15.0
+        },
+        {
+          "code": "SKU57978",
+          "name": "麦旋风奥利奥",
+          "category": "dessert",
+          "qty": 1,
+          "unitPrice": 14.5
+        }
+      ],
+      "originalPrice": 55.5,
+      "payPrice": 42.0,
+      "coupon": "夜宵满减"
+    },
+    {
+      "orderId": "202602130065",
+      "createdAt": "2026-02-13T12:25:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(五道口购物中心店)",
+      "items": [
+        {
+          "code": "SKU87613",
+          "name": "板烧鸡腿堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 23.5
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 46.5,
+      "payPrice": 30.0,
+      "coupon": "超值三件套"
+    },
+    {
+      "orderId": "202602130066",
+      "createdAt": "2026-02-13T23:00:00+08:00",
+      "channel": "delivery",
+      "storeName": "麦当劳(知春路店)",
+      "items": [
+        {
+          "code": "SKU52755",
+          "name": "麦辣鸡腿堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 23.0
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 33.5,
+      "payPrice": 26.0,
+      "coupon": "夜宵满减"
+    },
+    {
+      "orderId": "202602160067",
+      "createdAt": "2026-02-16T12:51:00+08:00",
+      "channel": "dinein",
+      "storeName": "麦当劳(五道口购物中心店)",
+      "items": [
+        {
+          "code": "SKU50377",
+          "name": "麦乐鸡5块",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 15.5
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 38.5,
+      "payPrice": 25.0,
+      "coupon": "小食组合券"
+    },
+    {
+      "orderId": "202602170068",
+      "createdAt": "2026-02-17T08:52:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(五道口购物中心店)",
+      "items": [
+        {
+          "code": "SKU15714",
+          "name": "吉士蛋麦满分",
+          "category": "breakfast",
+          "qty": 1,
+          "unitPrice": 14.0
+        },
+        {
+          "code": "SKU18427",
+          "name": "美式咖啡",
+          "category": "coffee",
+          "qty": 1,
+          "unitPrice": 15.0
+        }
+      ],
+      "originalPrice": 29.0,
+      "payPrice": 17.0,
+      "coupon": "早餐组合"
+    },
+    {
+      "orderId": "202602180069",
+      "createdAt": "2026-02-18T09:12:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(望京SOHO店)",
+      "items": [
+        {
+          "code": "SKU15714",
+          "name": "吉士蛋麦满分",
+          "category": "breakfast",
+          "qty": 1,
+          "unitPrice": 14.0
+        },
+        {
+          "code": "SKU18427",
+          "name": "美式咖啡",
+          "category": "coffee",
+          "qty": 1,
+          "unitPrice": 15.0
+        }
+      ],
+      "originalPrice": 29.0,
+      "payPrice": 17.0,
+      "coupon": "早餐组合"
+    },
+    {
+      "orderId": "202602230070",
+      "createdAt": "2026-02-23T22:09:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(西二旗地铁站店)",
+      "items": [
+        {
+          "code": "SKU52755",
+          "name": "麦辣鸡腿堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 23.0
+        },
+        {
+          "code": "SKU25003",
+          "name": "麦辣鸡翅2块",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 13.0
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 46.5,
+      "payPrice": 33.0,
+      "coupon": "夜宵满减"
+    },
+    {
+      "orderId": "202602260071",
+      "createdAt": "2026-02-26T13:31:00+08:00",
+      "channel": "dinein",
+      "storeName": "麦当劳(五道口购物中心店)",
+      "items": [
+        {
+          "code": "SKU26383",
+          "name": "那么大鸡排",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 17.0
+        },
+        {
+          "code": "SKU25003",
+          "name": "麦辣鸡翅2块",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 13.0
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 40.5,
+      "payPrice": 28.0,
+      "coupon": "小食组合券"
+    },
+    {
+      "orderId": "202602270073",
+      "createdAt": "2026-02-27T09:49:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(知春路店)",
+      "items": [
+        {
+          "code": "SKU15714",
+          "name": "吉士蛋麦满分",
+          "category": "breakfast",
+          "qty": 1,
+          "unitPrice": 14.0
+        },
+        {
+          "code": "SKU18427",
+          "name": "美式咖啡",
+          "category": "coffee",
+          "qty": 1,
+          "unitPrice": 15.0
+        }
+      ],
+      "originalPrice": 29.0,
+      "payPrice": 17.0,
+      "coupon": "早餐组合"
+    },
+    {
+      "orderId": "202602270072",
+      "createdAt": "2026-02-27T13:29:00+08:00",
+      "channel": "dinein",
+      "storeName": "麦当劳(中关村大街店)",
+      "items": [
+        {
+          "code": "SKU87613",
+          "name": "板烧鸡腿堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 23.5
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 46.5,
+      "payPrice": 30.0,
+      "coupon": "超值三件套"
+    },
+    {
+      "orderId": "202602280074",
+      "createdAt": "2026-02-28T17:08:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(五道口购物中心店)",
+      "items": [
+        {
+          "code": "SKU85792",
+          "name": "香芋派",
+          "category": "dessert",
+          "qty": 1,
+          "unitPrice": 8.0
+        },
+        {
+          "code": "SKU18478",
+          "name": "拿铁",
+          "category": "coffee",
+          "qty": 1,
+          "unitPrice": 19.0
+        }
+      ],
+      "originalPrice": 27.0,
+      "payPrice": 27.0,
+      "coupon": ""
+    },
+    {
+      "orderId": "202603020076",
+      "createdAt": "2026-03-02T09:25:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(西二旗地铁站店)",
+      "items": [
+        {
+          "code": "SKU15714",
+          "name": "吉士蛋麦满分",
+          "category": "breakfast",
+          "qty": 1,
+          "unitPrice": 14.0
+        },
+        {
+          "code": "SKU18427",
+          "name": "美式咖啡",
+          "category": "coffee",
+          "qty": 1,
+          "unitPrice": 15.0
+        }
+      ],
+      "originalPrice": 29.0,
+      "payPrice": 17.0,
+      "coupon": "早餐组合"
+    },
+    {
+      "orderId": "202603020075",
+      "createdAt": "2026-03-02T12:11:00+08:00",
+      "channel": "dinein",
+      "storeName": "麦当劳(五道口购物中心店)",
+      "items": [
+        {
+          "code": "SKU52755",
+          "name": "麦辣鸡腿堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 23.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 46.0,
+      "payPrice": 29.5,
+      "coupon": "1+1随心配+中薯条"
+    },
+    {
+      "orderId": "202603040077",
+      "createdAt": "2026-03-04T23:50:00+08:00",
+      "channel": "delivery",
+      "storeName": "麦当劳(知春路店)",
+      "items": [
+        {
+          "code": "SKU52755",
+          "name": "麦辣鸡腿堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 23.0
+        },
+        {
+          "code": "SKU25003",
+          "name": "麦辣鸡翅2块",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 13.0
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 46.5,
+      "payPrice": 33.0,
+      "coupon": "夜宵满减"
+    },
+    {
+      "orderId": "202603050078",
+      "createdAt": "2026-03-05T13:50:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(西二旗地铁站店)",
+      "items": [
+        {
+          "code": "SKU87613",
+          "name": "板烧鸡腿堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 23.5
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 46.5,
+      "payPrice": 30.0,
+      "coupon": "超值三件套"
+    },
+    {
+      "orderId": "202603080079",
+      "createdAt": "2026-03-08T15:09:00+08:00",
+      "channel": "dinein",
+      "storeName": "麦当劳(望京SOHO店)",
+      "items": [
+        {
+          "code": "SKU57978",
+          "name": "麦旋风奥利奥",
+          "category": "dessert",
+          "qty": 1,
+          "unitPrice": 14.5
+        },
+        {
+          "code": "SKU78170",
+          "name": "原味甜筒",
+          "category": "dessert",
+          "qty": 1,
+          "unitPrice": 4.0
+        }
+      ],
+      "originalPrice": 18.5,
+      "payPrice": 18.5,
+      "coupon": ""
+    },
+    {
+      "orderId": "202603100080",
+      "createdAt": "2026-03-10T11:16:00+08:00",
+      "channel": "dinein",
+      "storeName": "麦当劳(五道口购物中心店)",
+      "items": [
+        {
+          "code": "SKU10107",
+          "name": "巨无霸",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 26.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 49.0,
+      "payPrice": 31.0,
+      "coupon": "超值三件套"
+    },
+    {
+      "orderId": "202603110081",
+      "createdAt": "2026-03-11T11:52:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(西二旗地铁站店)",
+      "items": [
+        {
+          "code": "SKU52755",
+          "name": "麦辣鸡腿堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 23.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 46.0,
+      "payPrice": 29.5,
+      "coupon": "1+1随心配+中薯条"
+    },
+    {
+      "orderId": "202603150082",
+      "createdAt": "2026-03-15T16:37:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(知春路店)",
+      "items": [
+        {
+          "code": "SKU85792",
+          "name": "香芋派",
+          "category": "dessert",
+          "qty": 1,
+          "unitPrice": 8.0
+        },
+        {
+          "code": "SKU18478",
+          "name": "拿铁",
+          "category": "coffee",
+          "qty": 1,
+          "unitPrice": 19.0
+        }
+      ],
+      "originalPrice": 27.0,
+      "payPrice": 27.0,
+      "coupon": ""
+    },
+    {
+      "orderId": "202603160083",
+      "createdAt": "2026-03-16T12:42:00+08:00",
+      "channel": "dinein",
+      "storeName": "麦当劳(中关村大街店)",
+      "items": [
+        {
+          "code": "SKU26383",
+          "name": "那么大鸡排",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 17.0
+        },
+        {
+          "code": "SKU25003",
+          "name": "麦辣鸡翅2块",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 13.0
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 40.5,
+      "payPrice": 28.0,
+      "coupon": "小食组合券"
+    },
+    {
+      "orderId": "202603160084",
+      "createdAt": "2026-03-16T22:19:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(知春路店)",
+      "items": [
+        {
+          "code": "SKU52755",
+          "name": "麦辣鸡腿堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 23.0
+        },
+        {
+          "code": "SKU25003",
+          "name": "麦辣鸡翅2块",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 13.0
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 46.5,
+      "payPrice": 33.0,
+      "coupon": "夜宵满减"
+    },
+    {
+      "orderId": "202603180085",
+      "createdAt": "2026-03-18T12:56:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(望京SOHO店)",
+      "items": [
+        {
+          "code": "SKU10107",
+          "name": "巨无霸",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 26.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 49.0,
+      "payPrice": 31.0,
+      "coupon": "超值三件套"
+    },
+    {
+      "orderId": "202603190086",
+      "createdAt": "2026-03-19T12:07:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(西二旗地铁站店)",
+      "items": [
+        {
+          "code": "SKU49210",
+          "name": "双层吉士汉堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 18.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU62312",
+          "name": "雪碧中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 41.0,
+      "payPrice": 26.0,
+      "coupon": "1+1随心配+中薯条"
+    },
+    {
+      "orderId": "202603240087",
+      "createdAt": "2026-03-24T23:21:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(望京SOHO店)",
+      "items": [
+        {
+          "code": "SKU10107",
+          "name": "巨无霸",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 26.0
+        },
+        {
+          "code": "SKU57055",
+          "name": "大薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 15.0
+        },
+        {
+          "code": "SKU57978",
+          "name": "麦旋风奥利奥",
+          "category": "dessert",
+          "qty": 1,
+          "unitPrice": 14.5
+        }
+      ],
+      "originalPrice": 55.5,
+      "payPrice": 42.0,
+      "coupon": "夜宵满减"
+    },
+    {
+      "orderId": "202603260088",
+      "createdAt": "2026-03-26T12:26:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(中关村大街店)",
+      "items": [
+        {
+          "code": "SKU87613",
+          "name": "板烧鸡腿堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 23.5
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 46.5,
+      "payPrice": 30.0,
+      "coupon": "超值三件套"
+    },
+    {
+      "orderId": "202603270089",
+      "createdAt": "2026-03-27T23:39:00+08:00",
+      "channel": "delivery",
+      "storeName": "麦当劳(望京SOHO店)",
+      "items": [
+        {
+          "code": "SKU10107",
+          "name": "巨无霸",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 26.0
+        },
+        {
+          "code": "SKU57055",
+          "name": "大薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 15.0
+        },
+        {
+          "code": "SKU57978",
+          "name": "麦旋风奥利奥",
+          "category": "dessert",
+          "qty": 1,
+          "unitPrice": 14.5
+        }
+      ],
+      "originalPrice": 55.5,
+      "payPrice": 42.0,
+      "coupon": "夜宵满减"
+    },
+    {
+      "orderId": "202603300091",
+      "createdAt": "2026-03-30T09:32:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(望京SOHO店)",
+      "items": [
+        {
+          "code": "SKU49417",
+          "name": "猪柳蛋麦满分",
+          "category": "breakfast",
+          "qty": 1,
+          "unitPrice": 16.5
+        },
+        {
+          "code": "SKU18427",
+          "name": "美式咖啡",
+          "category": "coffee",
+          "qty": 1,
+          "unitPrice": 15.0
+        }
+      ],
+      "originalPrice": 31.5,
+      "payPrice": 19.0,
+      "coupon": "早餐组合"
+    },
+    {
+      "orderId": "202603300090",
+      "createdAt": "2026-03-30T12:59:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(五道口购物中心店)",
+      "items": [
+        {
+          "code": "SKU49210",
+          "name": "双层吉士汉堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 18.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU62312",
+          "name": "雪碧中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 41.0,
+      "payPrice": 26.0,
+      "coupon": "1+1随心配+中薯条"
+    },
+    {
+      "orderId": "202604030092",
+      "createdAt": "2026-04-03T12:44:00+08:00",
+      "channel": "delivery",
+      "storeName": "麦当劳(西二旗地铁站店)",
+      "items": [
+        {
+          "code": "SKU49210",
+          "name": "双层吉士汉堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 18.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU62312",
+          "name": "雪碧中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 41.0,
+      "payPrice": 26.0,
+      "coupon": "1+1随心配+中薯条"
+    },
+    {
+      "orderId": "202604050093",
+      "createdAt": "2026-04-05T16:24:00+08:00",
+      "channel": "dinein",
+      "storeName": "麦当劳(中关村大街店)",
+      "items": [
+        {
+          "code": "SKU85792",
+          "name": "香芋派",
+          "category": "dessert",
+          "qty": 1,
+          "unitPrice": 8.0
+        },
+        {
+          "code": "SKU18478",
+          "name": "拿铁",
+          "category": "coffee",
+          "qty": 1,
+          "unitPrice": 19.0
+        }
+      ],
+      "originalPrice": 27.0,
+      "payPrice": 27.0,
+      "coupon": ""
+    },
+    {
+      "orderId": "202604060094",
+      "createdAt": "2026-04-06T12:33:00+08:00",
+      "channel": "dinein",
+      "storeName": "麦当劳(五道口购物中心店)",
+      "items": [
+        {
+          "code": "SKU52755",
+          "name": "麦辣鸡腿堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 23.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 46.0,
+      "payPrice": 29.5,
+      "coupon": "1+1随心配+中薯条"
+    },
+    {
+      "orderId": "202604080095",
+      "createdAt": "2026-04-08T23:52:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(中关村大街店)",
+      "items": [
+        {
+          "code": "SKU10107",
+          "name": "巨无霸",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 26.0
+        },
+        {
+          "code": "SKU57055",
+          "name": "大薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 15.0
+        },
+        {
+          "code": "SKU57978",
+          "name": "麦旋风奥利奥",
+          "category": "dessert",
+          "qty": 1,
+          "unitPrice": 14.5
+        }
+      ],
+      "originalPrice": 55.5,
+      "payPrice": 42.0,
+      "coupon": "夜宵满减"
+    },
+    {
+      "orderId": "202604100096",
+      "createdAt": "2026-04-10T09:22:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(西二旗地铁站店)",
+      "items": [
+        {
+          "code": "SKU15714",
+          "name": "吉士蛋麦满分",
+          "category": "breakfast",
+          "qty": 1,
+          "unitPrice": 14.0
+        },
+        {
+          "code": "SKU18427",
+          "name": "美式咖啡",
+          "category": "coffee",
+          "qty": 1,
+          "unitPrice": 15.0
+        }
+      ],
+      "originalPrice": 29.0,
+      "payPrice": 17.0,
+      "coupon": "早餐组合"
+    },
+    {
+      "orderId": "202604100097",
+      "createdAt": "2026-04-10T19:56:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(五道口购物中心店)",
+      "items": [
+        {
+          "code": "SKU40197",
+          "name": "麦香鸡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 15.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        }
+      ],
+      "originalPrice": 27.5,
+      "payPrice": 17.5,
+      "coupon": "1+1随心配"
+    },
+    {
+      "orderId": "202604110098",
+      "createdAt": "2026-04-11T15:26:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(知春路店)",
+      "items": [
+        {
+          "code": "SKU85792",
+          "name": "香芋派",
+          "category": "dessert",
+          "qty": 1,
+          "unitPrice": 8.0
+        },
+        {
+          "code": "SKU18478",
+          "name": "拿铁",
+          "category": "coffee",
+          "qty": 1,
+          "unitPrice": 19.0
+        }
+      ],
+      "originalPrice": 27.0,
+      "payPrice": 27.0,
+      "coupon": ""
+    },
+    {
+      "orderId": "202604130099",
+      "createdAt": "2026-04-13T22:38:00+08:00",
+      "channel": "delivery",
+      "storeName": "麦当劳(望京SOHO店)",
+      "items": [
+        {
+          "code": "SKU10107",
+          "name": "巨无霸",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 26.0
+        },
+        {
+          "code": "SKU57055",
+          "name": "大薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 15.0
+        },
+        {
+          "code": "SKU57978",
+          "name": "麦旋风奥利奥",
+          "category": "dessert",
+          "qty": 1,
+          "unitPrice": 14.5
+        }
+      ],
+      "originalPrice": 55.5,
+      "payPrice": 42.0,
+      "coupon": "夜宵满减"
+    },
+    {
+      "orderId": "202604140100",
+      "createdAt": "2026-04-14T11:09:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(中关村大街店)",
+      "items": [
+        {
+          "code": "SKU87613",
+          "name": "板烧鸡腿堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 23.5
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 46.5,
+      "payPrice": 30.0,
+      "coupon": "超值三件套"
+    },
+    {
+      "orderId": "202604150101",
+      "createdAt": "2026-04-15T08:35:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(知春路店)",
+      "items": [
+        {
+          "code": "SKU49417",
+          "name": "猪柳蛋麦满分",
+          "category": "breakfast",
+          "qty": 1,
+          "unitPrice": 16.5
+        },
+        {
+          "code": "SKU18427",
+          "name": "美式咖啡",
+          "category": "coffee",
+          "qty": 1,
+          "unitPrice": 15.0
+        }
+      ],
+      "originalPrice": 31.5,
+      "payPrice": 19.0,
+      "coupon": "早餐组合"
+    },
+    {
+      "orderId": "202604170102",
+      "createdAt": "2026-04-17T11:02:00+08:00",
+      "channel": "dinein",
+      "storeName": "麦当劳(五道口购物中心店)",
+      "items": [
+        {
+          "code": "SKU52755",
+          "name": "麦辣鸡腿堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 23.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 46.0,
+      "payPrice": 29.5,
+      "coupon": "1+1随心配+中薯条"
+    },
+    {
+      "orderId": "202604200103",
+      "createdAt": "2026-04-20T12:40:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(望京SOHO店)",
+      "items": [
+        {
+          "code": "SKU52755",
+          "name": "麦辣鸡腿堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 23.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 46.0,
+      "payPrice": 29.5,
+      "coupon": "1+1随心配+中薯条"
+    },
+    {
+      "orderId": "202604250104",
+      "createdAt": "2026-04-25T16:47:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(知春路店)",
+      "items": [
+        {
+          "code": "SKU57978",
+          "name": "麦旋风奥利奥",
+          "category": "dessert",
+          "qty": 1,
+          "unitPrice": 14.5
+        },
+        {
+          "code": "SKU78170",
+          "name": "原味甜筒",
+          "category": "dessert",
+          "qty": 1,
+          "unitPrice": 4.0
+        }
+      ],
+      "originalPrice": 18.5,
+      "payPrice": 18.5,
+      "coupon": ""
+    },
+    {
+      "orderId": "202605010105",
+      "createdAt": "2026-05-01T12:00:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(西二旗地铁站店)",
+      "items": [
+        {
+          "code": "SKU52755",
+          "name": "麦辣鸡腿堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 23.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 46.0,
+      "payPrice": 29.5,
+      "coupon": "1+1随心配+中薯条"
+    },
+    {
+      "orderId": "202605010106",
+      "createdAt": "2026-05-01T19:47:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(西二旗地铁站店)",
+      "items": [
+        {
+          "code": "SKU40197",
+          "name": "麦香鸡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 15.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        }
+      ],
+      "originalPrice": 27.5,
+      "payPrice": 17.5,
+      "coupon": "1+1随心配"
+    },
+    {
+      "orderId": "202605020107",
+      "createdAt": "2026-05-02T13:49:00+08:00",
+      "channel": "delivery",
+      "storeName": "麦当劳(西二旗地铁站店)",
+      "items": [
+        {
+          "code": "SKU10107",
+          "name": "巨无霸",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 26.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 49.0,
+      "payPrice": 31.0,
+      "coupon": "超值三件套"
+    },
+    {
+      "orderId": "202605030108",
+      "createdAt": "2026-05-03T15:04:00+08:00",
+      "channel": "dinein",
+      "storeName": "麦当劳(中关村大街店)",
+      "items": [
+        {
+          "code": "SKU57978",
+          "name": "麦旋风奥利奥",
+          "category": "dessert",
+          "qty": 1,
+          "unitPrice": 14.5
+        },
+        {
+          "code": "SKU78170",
+          "name": "原味甜筒",
+          "category": "dessert",
+          "qty": 1,
+          "unitPrice": 4.0
+        }
+      ],
+      "originalPrice": 18.5,
+      "payPrice": 18.5,
+      "coupon": ""
+    },
+    {
+      "orderId": "202605050109",
+      "createdAt": "2026-05-05T12:24:00+08:00",
+      "channel": "dinein",
+      "storeName": "麦当劳(五道口购物中心店)",
+      "items": [
+        {
+          "code": "SKU52755",
+          "name": "麦辣鸡腿堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 23.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 46.0,
+      "payPrice": 29.5,
+      "coupon": "1+1随心配+中薯条"
+    },
+    {
+      "orderId": "202605050110",
+      "createdAt": "2026-05-05T23:52:00+08:00",
+      "channel": "delivery",
+      "storeName": "麦当劳(西二旗地铁站店)",
+      "items": [
+        {
+          "code": "SKU52755",
+          "name": "麦辣鸡腿堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 23.0
+        },
+        {
+          "code": "SKU25003",
+          "name": "麦辣鸡翅2块",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 13.0
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 46.5,
+      "payPrice": 33.0,
+      "coupon": "夜宵满减"
+    },
+    {
+      "orderId": "202605060111",
+      "createdAt": "2026-05-06T11:18:00+08:00",
+      "channel": "delivery",
+      "storeName": "麦当劳(五道口购物中心店)",
+      "items": [
+        {
+          "code": "SKU87613",
+          "name": "板烧鸡腿堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 23.5
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 46.5,
+      "payPrice": 30.0,
+      "coupon": "超值三件套"
+    },
+    {
+      "orderId": "202605070112",
+      "createdAt": "2026-05-07T13:38:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(望京SOHO店)",
+      "items": [
+        {
+          "code": "SKU10107",
+          "name": "巨无霸",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 26.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 49.0,
+      "payPrice": 31.0,
+      "coupon": "超值三件套"
+    },
+    {
+      "orderId": "202605070113",
+      "createdAt": "2026-05-07T23:55:00+08:00",
+      "channel": "delivery",
+      "storeName": "麦当劳(望京SOHO店)",
+      "items": [
+        {
+          "code": "SKU52755",
+          "name": "麦辣鸡腿堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 23.0
+        },
+        {
+          "code": "SKU25003",
+          "name": "麦辣鸡翅2块",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 13.0
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 46.5,
+      "payPrice": 33.0,
+      "coupon": "夜宵满减"
+    },
+    {
+      "orderId": "202605110115",
+      "createdAt": "2026-05-11T20:14:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(五道口购物中心店)",
+      "items": [
+        {
+          "code": "SKU40197",
+          "name": "麦香鸡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 15.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        }
+      ],
+      "originalPrice": 27.5,
+      "payPrice": 17.5,
+      "coupon": "1+1随心配"
+    },
+    {
+      "orderId": "202605110114",
+      "createdAt": "2026-05-11T23:27:00+08:00",
+      "channel": "delivery",
+      "storeName": "麦当劳(中关村大街店)",
+      "items": [
+        {
+          "code": "SKU52755",
+          "name": "麦辣鸡腿堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 23.0
+        },
+        {
+          "code": "SKU25003",
+          "name": "麦辣鸡翅2块",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 13.0
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 46.5,
+      "payPrice": 33.0,
+      "coupon": "夜宵满减"
+    },
+    {
+      "orderId": "202605120116",
+      "createdAt": "2026-05-12T13:09:00+08:00",
+      "channel": "dinein",
+      "storeName": "麦当劳(知春路店)",
+      "items": [
+        {
+          "code": "SKU87613",
+          "name": "板烧鸡腿堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 23.5
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 46.5,
+      "payPrice": 30.0,
+      "coupon": "超值三件套"
+    },
+    {
+      "orderId": "202605140117",
+      "createdAt": "2026-05-14T20:14:00+08:00",
+      "channel": "dinein",
+      "storeName": "麦当劳(五道口购物中心店)",
+      "items": [
+        {
+          "code": "SKU40197",
+          "name": "麦香鸡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 15.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        }
+      ],
+      "originalPrice": 27.5,
+      "payPrice": 17.5,
+      "coupon": "1+1随心配"
+    },
+    {
+      "orderId": "202605150118",
+      "createdAt": "2026-05-15T12:14:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(知春路店)",
+      "items": [
+        {
+          "code": "SKU49210",
+          "name": "双层吉士汉堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 18.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU62312",
+          "name": "雪碧中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 41.0,
+      "payPrice": 26.0,
+      "coupon": "1+1随心配+中薯条"
+    },
+    {
+      "orderId": "202605150119",
+      "createdAt": "2026-05-15T22:13:00+08:00",
+      "channel": "delivery",
+      "storeName": "麦当劳(西二旗地铁站店)",
+      "items": [
+        {
+          "code": "SKU52755",
+          "name": "麦辣鸡腿堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 23.0
+        },
+        {
+          "code": "SKU25003",
+          "name": "麦辣鸡翅2块",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 13.0
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 46.5,
+      "payPrice": 33.0,
+      "coupon": "夜宵满减"
+    },
+    {
+      "orderId": "202605190120",
+      "createdAt": "2026-05-19T11:17:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(五道口购物中心店)",
+      "items": [
+        {
+          "code": "SKU87613",
+          "name": "板烧鸡腿堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 23.5
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 46.5,
+      "payPrice": 30.0,
+      "coupon": "超值三件套"
+    },
+    {
+      "orderId": "202605200121",
+      "createdAt": "2026-05-20T22:21:00+08:00",
+      "channel": "delivery",
+      "storeName": "麦当劳(西二旗地铁站店)",
+      "items": [
+        {
+          "code": "SKU10107",
+          "name": "巨无霸",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 26.0
+        },
+        {
+          "code": "SKU57055",
+          "name": "大薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 15.0
+        },
+        {
+          "code": "SKU57978",
+          "name": "麦旋风奥利奥",
+          "category": "dessert",
+          "qty": 1,
+          "unitPrice": 14.5
+        }
+      ],
+      "originalPrice": 55.5,
+      "payPrice": 42.0,
+      "coupon": "夜宵满减"
+    },
+    {
+      "orderId": "202605210122",
+      "createdAt": "2026-05-21T12:52:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(西二旗地铁站店)",
+      "items": [
+        {
+          "code": "SKU26383",
+          "name": "那么大鸡排",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 17.0
+        },
+        {
+          "code": "SKU25003",
+          "name": "麦辣鸡翅2块",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 13.0
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 40.5,
+      "payPrice": 28.0,
+      "coupon": "小食组合券"
+    },
+    {
+      "orderId": "202605220123",
+      "createdAt": "2026-05-22T22:35:00+08:00",
+      "channel": "delivery",
+      "storeName": "麦当劳(中关村大街店)",
+      "items": [
+        {
+          "code": "SKU52755",
+          "name": "麦辣鸡腿堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 23.0
+        },
+        {
+          "code": "SKU25003",
+          "name": "麦辣鸡翅2块",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 13.0
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 46.5,
+      "payPrice": 33.0,
+      "coupon": "夜宵满减"
+    },
+    {
+      "orderId": "202605250124",
+      "createdAt": "2026-05-25T12:57:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(五道口购物中心店)",
+      "items": [
+        {
+          "code": "SKU10107",
+          "name": "巨无霸",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 26.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 49.0,
+      "payPrice": 31.0,
+      "coupon": "超值三件套"
+    },
+    {
+      "orderId": "202605250125",
+      "createdAt": "2026-05-25T23:02:00+08:00",
+      "channel": "delivery",
+      "storeName": "麦当劳(五道口购物中心店)",
+      "items": [
+        {
+          "code": "SKU10107",
+          "name": "巨无霸",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 26.0
+        },
+        {
+          "code": "SKU57055",
+          "name": "大薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 15.0
+        },
+        {
+          "code": "SKU57978",
+          "name": "麦旋风奥利奥",
+          "category": "dessert",
+          "qty": 1,
+          "unitPrice": 14.5
+        }
+      ],
+      "originalPrice": 55.5,
+      "payPrice": 42.0,
+      "coupon": "夜宵满减"
+    },
+    {
+      "orderId": "202605260126",
+      "createdAt": "2026-05-26T11:02:00+08:00",
+      "channel": "delivery",
+      "storeName": "麦当劳(望京SOHO店)",
+      "items": [
+        {
+          "code": "SKU52755",
+          "name": "麦辣鸡腿堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 23.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 46.0,
+      "payPrice": 29.5,
+      "coupon": "1+1随心配+中薯条"
+    },
+    {
+      "orderId": "202605270127",
+      "createdAt": "2026-05-27T12:00:00+08:00",
+      "channel": "dinein",
+      "storeName": "麦当劳(望京SOHO店)",
+      "items": [
+        {
+          "code": "SKU26383",
+          "name": "那么大鸡排",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 17.0
+        },
+        {
+          "code": "SKU25003",
+          "name": "麦辣鸡翅2块",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 13.0
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 40.5,
+      "payPrice": 28.0,
+      "coupon": "小食组合券"
+    },
+    {
+      "orderId": "202605280128",
+      "createdAt": "2026-05-28T12:46:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(西二旗地铁站店)",
+      "items": [
+        {
+          "code": "SKU87613",
+          "name": "板烧鸡腿堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 23.5
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 46.5,
+      "payPrice": 30.0,
+      "coupon": "超值三件套"
+    },
+    {
+      "orderId": "202605290129",
+      "createdAt": "2026-05-29T12:50:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(望京SOHO店)",
+      "items": [
+        {
+          "code": "SKU26383",
+          "name": "那么大鸡排",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 17.0
+        },
+        {
+          "code": "SKU25003",
+          "name": "麦辣鸡翅2块",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 13.0
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 40.5,
+      "payPrice": 28.0,
+      "coupon": "小食组合券"
+    },
+    {
+      "orderId": "202605310130",
+      "createdAt": "2026-05-31T16:13:00+08:00",
+      "channel": "dinein",
+      "storeName": "麦当劳(知春路店)",
+      "items": [
+        {
+          "code": "SKU85792",
+          "name": "香芋派",
+          "category": "dessert",
+          "qty": 1,
+          "unitPrice": 8.0
+        },
+        {
+          "code": "SKU18478",
+          "name": "拿铁",
+          "category": "coffee",
+          "qty": 1,
+          "unitPrice": 19.0
+        }
+      ],
+      "originalPrice": 27.0,
+      "payPrice": 27.0,
+      "coupon": ""
+    },
+    {
+      "orderId": "202606010131",
+      "createdAt": "2026-06-01T13:33:00+08:00",
+      "channel": "delivery",
+      "storeName": "麦当劳(五道口购物中心店)",
+      "items": [
+        {
+          "code": "SKU26383",
+          "name": "那么大鸡排",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 17.0
+        },
+        {
+          "code": "SKU25003",
+          "name": "麦辣鸡翅2块",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 13.0
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 40.5,
+      "payPrice": 28.0,
+      "coupon": "小食组合券"
+    },
+    {
+      "orderId": "202606010132",
+      "createdAt": "2026-06-01T23:00:00+08:00",
+      "channel": "delivery",
+      "storeName": "麦当劳(中关村大街店)",
+      "items": [
+        {
+          "code": "SKU10107",
+          "name": "巨无霸",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 26.0
+        },
+        {
+          "code": "SKU57055",
+          "name": "大薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 15.0
+        },
+        {
+          "code": "SKU57978",
+          "name": "麦旋风奥利奥",
+          "category": "dessert",
+          "qty": 1,
+          "unitPrice": 14.5
+        }
+      ],
+      "originalPrice": 55.5,
+      "payPrice": 42.0,
+      "coupon": "夜宵满减"
+    },
+    {
+      "orderId": "202606030133",
+      "createdAt": "2026-06-03T11:31:00+08:00",
+      "channel": "delivery",
+      "storeName": "麦当劳(中关村大街店)",
+      "items": [
+        {
+          "code": "SKU52755",
+          "name": "麦辣鸡腿堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 23.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 46.0,
+      "payPrice": 29.5,
+      "coupon": "1+1随心配+中薯条"
+    },
+    {
+      "orderId": "202606050134",
+      "createdAt": "2026-06-05T12:21:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(五道口购物中心店)",
+      "items": [
+        {
+          "code": "SKU49210",
+          "name": "双层吉士汉堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 18.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU62312",
+          "name": "雪碧中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 41.0,
+      "payPrice": 26.0,
+      "coupon": "1+1随心配+中薯条"
+    },
+    {
+      "orderId": "202606050135",
+      "createdAt": "2026-06-05T20:33:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(望京SOHO店)",
+      "items": [
+        {
+          "code": "SKU40197",
+          "name": "麦香鸡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 15.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        }
+      ],
+      "originalPrice": 27.5,
+      "payPrice": 17.5,
+      "coupon": "1+1随心配"
+    },
+    {
+      "orderId": "202606080136",
+      "createdAt": "2026-06-08T20:09:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(中关村大街店)",
+      "items": [
+        {
+          "code": "SKU40197",
+          "name": "麦香鸡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 15.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        }
+      ],
+      "originalPrice": 27.5,
+      "payPrice": 17.5,
+      "coupon": "1+1随心配"
+    },
+    {
+      "orderId": "202606100137",
+      "createdAt": "2026-06-10T13:37:00+08:00",
+      "channel": "dinein",
+      "storeName": "麦当劳(望京SOHO店)",
+      "items": [
+        {
+          "code": "SKU10107",
+          "name": "巨无霸",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 26.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 49.0,
+      "payPrice": 31.0,
+      "coupon": "超值三件套"
+    },
+    {
+      "orderId": "202606120138",
+      "createdAt": "2026-06-12T13:37:00+08:00",
+      "channel": "delivery",
+      "storeName": "麦当劳(知春路店)",
+      "items": [
+        {
+          "code": "SKU52755",
+          "name": "麦辣鸡腿堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 23.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 46.0,
+      "payPrice": 29.5,
+      "coupon": "1+1随心配+中薯条"
+    },
+    {
+      "orderId": "202606120139",
+      "createdAt": "2026-06-12T23:10:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(西二旗地铁站店)",
+      "items": [
+        {
+          "code": "SKU10107",
+          "name": "巨无霸",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 26.0
+        },
+        {
+          "code": "SKU57055",
+          "name": "大薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 15.0
+        },
+        {
+          "code": "SKU57978",
+          "name": "麦旋风奥利奥",
+          "category": "dessert",
+          "qty": 1,
+          "unitPrice": 14.5
+        }
+      ],
+      "originalPrice": 55.5,
+      "payPrice": 42.0,
+      "coupon": "夜宵满减"
+    },
+    {
+      "orderId": "202606140140",
+      "createdAt": "2026-06-14T13:33:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(中关村大街店)",
+      "items": [
+        {
+          "code": "SKU10107",
+          "name": "巨无霸",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 26.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 49.0,
+      "payPrice": 31.0,
+      "coupon": "超值三件套"
+    },
+    {
+      "orderId": "202606160141",
+      "createdAt": "2026-06-16T22:19:00+08:00",
+      "channel": "delivery",
+      "storeName": "麦当劳(中关村大街店)",
+      "items": [
+        {
+          "code": "SKU52755",
+          "name": "麦辣鸡腿堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 23.0
+        },
+        {
+          "code": "SKU25003",
+          "name": "麦辣鸡翅2块",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 13.0
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 46.5,
+      "payPrice": 33.0,
+      "coupon": "夜宵满减"
+    },
+    {
+      "orderId": "202606180142",
+      "createdAt": "2026-06-18T12:06:00+08:00",
+      "channel": "dinein",
+      "storeName": "麦当劳(知春路店)",
+      "items": [
+        {
+          "code": "SKU87613",
+          "name": "板烧鸡腿堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 23.5
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 46.5,
+      "payPrice": 30.0,
+      "coupon": "超值三件套"
+    },
+    {
+      "orderId": "202606190143",
+      "createdAt": "2026-06-19T12:27:00+08:00",
+      "channel": "dinein",
+      "storeName": "麦当劳(西二旗地铁站店)",
+      "items": [
+        {
+          "code": "SKU52755",
+          "name": "麦辣鸡腿堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 23.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 46.0,
+      "payPrice": 29.5,
+      "coupon": "1+1随心配+中薯条"
+    },
+    {
+      "orderId": "202606230144",
+      "createdAt": "2026-06-23T13:01:00+08:00",
+      "channel": "delivery",
+      "storeName": "麦当劳(五道口购物中心店)",
+      "items": [
+        {
+          "code": "SKU26383",
+          "name": "那么大鸡排",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 17.0
+        },
+        {
+          "code": "SKU25003",
+          "name": "麦辣鸡翅2块",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 13.0
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 40.5,
+      "payPrice": 28.0,
+      "coupon": "小食组合券"
+    },
+    {
+      "orderId": "202606240146",
+      "createdAt": "2026-06-24T08:31:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(西二旗地铁站店)",
+      "items": [
+        {
+          "code": "SKU49417",
+          "name": "猪柳蛋麦满分",
+          "category": "breakfast",
+          "qty": 1,
+          "unitPrice": 16.5
+        },
+        {
+          "code": "SKU18427",
+          "name": "美式咖啡",
+          "category": "coffee",
+          "qty": 1,
+          "unitPrice": 15.0
+        }
+      ],
+      "originalPrice": 31.5,
+      "payPrice": 19.0,
+      "coupon": "早餐组合"
+    },
+    {
+      "orderId": "202606240145",
+      "createdAt": "2026-06-24T13:49:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(中关村大街店)",
+      "items": [
+        {
+          "code": "SKU26383",
+          "name": "那么大鸡排",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 17.0
+        },
+        {
+          "code": "SKU25003",
+          "name": "麦辣鸡翅2块",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 13.0
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 40.5,
+      "payPrice": 28.0,
+      "coupon": "小食组合券"
+    },
+    {
+      "orderId": "202606240148",
+      "createdAt": "2026-06-24T19:13:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(西二旗地铁站店)",
+      "items": [
+        {
+          "code": "SKU40197",
+          "name": "麦香鸡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 15.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        }
+      ],
+      "originalPrice": 27.5,
+      "payPrice": 17.5,
+      "coupon": "1+1随心配"
+    },
+    {
+      "orderId": "202606240147",
+      "createdAt": "2026-06-24T23:37:00+08:00",
+      "channel": "delivery",
+      "storeName": "麦当劳(五道口购物中心店)",
+      "items": [
+        {
+          "code": "SKU52755",
+          "name": "麦辣鸡腿堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 23.0
+        },
+        {
+          "code": "SKU25003",
+          "name": "麦辣鸡翅2块",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 13.0
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 46.5,
+      "payPrice": 33.0,
+      "coupon": "夜宵满减"
+    },
+    {
+      "orderId": "202606250149",
+      "createdAt": "2026-06-25T12:51:00+08:00",
+      "channel": "dinein",
+      "storeName": "麦当劳(中关村大街店)",
+      "items": [
+        {
+          "code": "SKU52755",
+          "name": "麦辣鸡腿堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 23.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 46.0,
+      "payPrice": 29.5,
+      "coupon": "1+1随心配+中薯条"
+    },
+    {
+      "orderId": "202606270150",
+      "createdAt": "2026-06-27T16:58:00+08:00",
+      "channel": "dinein",
+      "storeName": "麦当劳(中关村大街店)",
+      "items": [
+        {
+          "code": "SKU57978",
+          "name": "麦旋风奥利奥",
+          "category": "dessert",
+          "qty": 1,
+          "unitPrice": 14.5
+        },
+        {
+          "code": "SKU78170",
+          "name": "原味甜筒",
+          "category": "dessert",
+          "qty": 1,
+          "unitPrice": 4.0
+        }
+      ],
+      "originalPrice": 18.5,
+      "payPrice": 18.5,
+      "coupon": ""
+    },
+    {
+      "orderId": "202606290151",
+      "createdAt": "2026-06-29T13:15:00+08:00",
+      "channel": "delivery",
+      "storeName": "麦当劳(知春路店)",
+      "items": [
+        {
+          "code": "SKU49210",
+          "name": "双层吉士汉堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 18.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU62312",
+          "name": "雪碧中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 41.0,
+      "payPrice": 26.0,
+      "coupon": "1+1随心配+中薯条"
+    },
+    {
+      "orderId": "202606300152",
+      "createdAt": "2026-06-30T12:32:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(知春路店)",
+      "items": [
+        {
+          "code": "SKU87613",
+          "name": "板烧鸡腿堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 23.5
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 46.5,
+      "payPrice": 30.0,
+      "coupon": "超值三件套"
+    },
+    {
+      "orderId": "202607010153",
+      "createdAt": "2026-07-01T08:05:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(望京SOHO店)",
+      "items": [
+        {
+          "code": "SKU15714",
+          "name": "吉士蛋麦满分",
+          "category": "breakfast",
+          "qty": 1,
+          "unitPrice": 14.0
+        },
+        {
+          "code": "SKU18427",
+          "name": "美式咖啡",
+          "category": "coffee",
+          "qty": 1,
+          "unitPrice": 15.0
+        }
+      ],
+      "originalPrice": 29.0,
+      "payPrice": 17.0,
+      "coupon": "早餐组合"
+    },
+    {
+      "orderId": "202607010154",
+      "createdAt": "2026-07-01T19:21:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(知春路店)",
+      "items": [
+        {
+          "code": "SKU40197",
+          "name": "麦香鸡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 15.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        }
+      ],
+      "originalPrice": 27.5,
+      "payPrice": 17.5,
+      "coupon": "1+1随心配"
+    },
+    {
+      "orderId": "202607030156",
+      "createdAt": "2026-07-03T08:08:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(中关村大街店)",
+      "items": [
+        {
+          "code": "SKU49417",
+          "name": "猪柳蛋麦满分",
+          "category": "breakfast",
+          "qty": 1,
+          "unitPrice": 16.5
+        },
+        {
+          "code": "SKU18427",
+          "name": "美式咖啡",
+          "category": "coffee",
+          "qty": 1,
+          "unitPrice": 15.0
+        }
+      ],
+      "originalPrice": 31.5,
+      "payPrice": 19.0,
+      "coupon": "早餐组合"
+    },
+    {
+      "orderId": "202607030155",
+      "createdAt": "2026-07-03T12:55:00+08:00",
+      "channel": "delivery",
+      "storeName": "麦当劳(五道口购物中心店)",
+      "items": [
+        {
+          "code": "SKU52755",
+          "name": "麦辣鸡腿堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 23.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 46.0,
+      "payPrice": 29.5,
+      "coupon": "1+1随心配+中薯条"
+    },
+    {
+      "orderId": "202607050157",
+      "createdAt": "2026-07-05T16:44:00+08:00",
+      "channel": "dinein",
+      "storeName": "麦当劳(西二旗地铁站店)",
+      "items": [
+        {
+          "code": "SKU57978",
+          "name": "麦旋风奥利奥",
+          "category": "dessert",
+          "qty": 1,
+          "unitPrice": 14.5
+        },
+        {
+          "code": "SKU78170",
+          "name": "原味甜筒",
+          "category": "dessert",
+          "qty": 1,
+          "unitPrice": 4.0
+        }
+      ],
+      "originalPrice": 18.5,
+      "payPrice": 18.5,
+      "coupon": ""
+    },
+    {
+      "orderId": "202607060158",
+      "createdAt": "2026-07-06T22:43:00+08:00",
+      "channel": "delivery",
+      "storeName": "麦当劳(中关村大街店)",
+      "items": [
+        {
+          "code": "SKU10107",
+          "name": "巨无霸",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 26.0
+        },
+        {
+          "code": "SKU57055",
+          "name": "大薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 15.0
+        },
+        {
+          "code": "SKU57978",
+          "name": "麦旋风奥利奥",
+          "category": "dessert",
+          "qty": 1,
+          "unitPrice": 14.5
+        }
+      ],
+      "originalPrice": 55.5,
+      "payPrice": 42.0,
+      "coupon": "夜宵满减"
+    },
+    {
+      "orderId": "202607070159",
+      "createdAt": "2026-07-07T12:24:00+08:00",
+      "channel": "dinein",
+      "storeName": "麦当劳(知春路店)",
+      "items": [
+        {
+          "code": "SKU10107",
+          "name": "巨无霸",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 26.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 49.0,
+      "payPrice": 31.0,
+      "coupon": "超值三件套"
+    },
+    {
+      "orderId": "202607090160",
+      "createdAt": "2026-07-09T12:05:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(知春路店)",
+      "items": [
+        {
+          "code": "SKU10107",
+          "name": "巨无霸",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 26.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 49.0,
+      "payPrice": 31.0,
+      "coupon": "超值三件套"
+    },
+    {
+      "orderId": "202607100161",
+      "createdAt": "2026-07-10T20:29:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(知春路店)",
+      "items": [
+        {
+          "code": "SKU40197",
+          "name": "麦香鸡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 15.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        }
+      ],
+      "originalPrice": 27.5,
+      "payPrice": 17.5,
+      "coupon": "1+1随心配"
+    },
+    {
+      "orderId": "202607110162",
+      "createdAt": "2026-07-11T17:22:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(知春路店)",
+      "items": [
+        {
+          "code": "SKU85792",
+          "name": "香芋派",
+          "category": "dessert",
+          "qty": 1,
+          "unitPrice": 8.0
+        },
+        {
+          "code": "SKU18478",
+          "name": "拿铁",
+          "category": "coffee",
+          "qty": 1,
+          "unitPrice": 19.0
+        }
+      ],
+      "originalPrice": 27.0,
+      "payPrice": 27.0,
+      "coupon": ""
+    },
+    {
+      "orderId": "202607120163",
+      "createdAt": "2026-07-12T16:40:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(望京SOHO店)",
+      "items": [
+        {
+          "code": "SKU85792",
+          "name": "香芋派",
+          "category": "dessert",
+          "qty": 1,
+          "unitPrice": 8.0
+        },
+        {
+          "code": "SKU18478",
+          "name": "拿铁",
+          "category": "coffee",
+          "qty": 1,
+          "unitPrice": 19.0
+        }
+      ],
+      "originalPrice": 27.0,
+      "payPrice": 27.0,
+      "coupon": ""
+    },
+    {
+      "orderId": "202607130164",
+      "createdAt": "2026-07-13T12:16:00+08:00",
+      "channel": "delivery",
+      "storeName": "麦当劳(五道口购物中心店)",
+      "items": [
+        {
+          "code": "SKU26383",
+          "name": "那么大鸡排",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 17.0
+        },
+        {
+          "code": "SKU25003",
+          "name": "麦辣鸡翅2块",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 13.0
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 40.5,
+      "payPrice": 28.0,
+      "coupon": "小食组合券"
+    },
+    {
+      "orderId": "202607130165",
+      "createdAt": "2026-07-13T22:33:00+08:00",
+      "channel": "delivery",
+      "storeName": "麦当劳(西二旗地铁站店)",
+      "items": [
+        {
+          "code": "SKU52755",
+          "name": "麦辣鸡腿堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 23.0
+        },
+        {
+          "code": "SKU25003",
+          "name": "麦辣鸡翅2块",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 13.0
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 46.5,
+      "payPrice": 33.0,
+      "coupon": "夜宵满减"
+    },
+    {
+      "orderId": "202607150166",
+      "createdAt": "2026-07-15T12:11:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(五道口购物中心店)",
+      "items": [
+        {
+          "code": "SKU49210",
+          "name": "双层吉士汉堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 18.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU62312",
+          "name": "雪碧中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 41.0,
+      "payPrice": 26.0,
+      "coupon": "1+1随心配+中薯条"
+    },
+    {
+      "orderId": "202607200168",
+      "createdAt": "2026-07-20T09:55:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(知春路店)",
+      "items": [
+        {
+          "code": "SKU15714",
+          "name": "吉士蛋麦满分",
+          "category": "breakfast",
+          "qty": 1,
+          "unitPrice": 14.0
+        },
+        {
+          "code": "SKU18427",
+          "name": "美式咖啡",
+          "category": "coffee",
+          "qty": 1,
+          "unitPrice": 15.0
+        }
+      ],
+      "originalPrice": 29.0,
+      "payPrice": 17.0,
+      "coupon": "早餐组合"
+    },
+    {
+      "orderId": "202607200167",
+      "createdAt": "2026-07-20T13:07:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(望京SOHO店)",
+      "items": [
+        {
+          "code": "SKU50377",
+          "name": "麦乐鸡5块",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 15.5
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 38.5,
+      "payPrice": 25.0,
+      "coupon": "小食组合券"
+    },
+    {
+      "orderId": "202607200169",
+      "createdAt": "2026-07-20T23:38:00+08:00",
+      "channel": "delivery",
+      "storeName": "麦当劳(西二旗地铁站店)",
+      "items": [
+        {
+          "code": "SKU10107",
+          "name": "巨无霸",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 26.0
+        },
+        {
+          "code": "SKU57055",
+          "name": "大薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 15.0
+        },
+        {
+          "code": "SKU57978",
+          "name": "麦旋风奥利奥",
+          "category": "dessert",
+          "qty": 1,
+          "unitPrice": 14.5
+        }
+      ],
+      "originalPrice": 55.5,
+      "payPrice": 42.0,
+      "coupon": "夜宵满减"
+    },
+    {
+      "orderId": "202607210170",
+      "createdAt": "2026-07-21T22:49:00+08:00",
+      "channel": "delivery",
+      "storeName": "麦当劳(西二旗地铁站店)",
+      "items": [
+        {
+          "code": "SKU52755",
+          "name": "麦辣鸡腿堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 23.0
+        },
+        {
+          "code": "SKU25003",
+          "name": "麦辣鸡翅2块",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 13.0
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 46.5,
+      "payPrice": 33.0,
+      "coupon": "夜宵满减"
+    },
+    {
+      "orderId": "202607220172",
+      "createdAt": "2026-07-22T08:39:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(望京SOHO店)",
+      "items": [
+        {
+          "code": "SKU15714",
+          "name": "吉士蛋麦满分",
+          "category": "breakfast",
+          "qty": 1,
+          "unitPrice": 14.0
+        },
+        {
+          "code": "SKU18427",
+          "name": "美式咖啡",
+          "category": "coffee",
+          "qty": 1,
+          "unitPrice": 15.0
+        }
+      ],
+      "originalPrice": 29.0,
+      "payPrice": 17.0,
+      "coupon": "早餐组合"
+    },
+    {
+      "orderId": "202607220171",
+      "createdAt": "2026-07-22T11:10:00+08:00",
+      "channel": "delivery",
+      "storeName": "麦当劳(望京SOHO店)",
+      "items": [
+        {
+          "code": "SKU52755",
+          "name": "麦辣鸡腿堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 23.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 46.0,
+      "payPrice": 29.5,
+      "coupon": "1+1随心配+中薯条"
+    },
+    {
+      "orderId": "202607240173",
+      "createdAt": "2026-07-24T22:51:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(知春路店)",
+      "items": [
+        {
+          "code": "SKU10107",
+          "name": "巨无霸",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 26.0
+        },
+        {
+          "code": "SKU57055",
+          "name": "大薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 15.0
+        },
+        {
+          "code": "SKU57978",
+          "name": "麦旋风奥利奥",
+          "category": "dessert",
+          "qty": 1,
+          "unitPrice": 14.5
+        }
+      ],
+      "originalPrice": 55.5,
+      "payPrice": 42.0,
+      "coupon": "夜宵满减"
+    },
+    {
+      "orderId": "202607250174",
+      "createdAt": "2026-07-25T15:17:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(望京SOHO店)",
+      "items": [
+        {
+          "code": "SKU57978",
+          "name": "麦旋风奥利奥",
+          "category": "dessert",
+          "qty": 1,
+          "unitPrice": 14.5
+        },
+        {
+          "code": "SKU78170",
+          "name": "原味甜筒",
+          "category": "dessert",
+          "qty": 1,
+          "unitPrice": 4.0
+        }
+      ],
+      "originalPrice": 18.5,
+      "payPrice": 18.5,
+      "coupon": ""
+    },
+    {
+      "orderId": "202607260175",
+      "createdAt": "2026-07-26T15:21:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(五道口购物中心店)",
+      "items": [
+        {
+          "code": "SKU85792",
+          "name": "香芋派",
+          "category": "dessert",
+          "qty": 1,
+          "unitPrice": 8.0
+        },
+        {
+          "code": "SKU18478",
+          "name": "拿铁",
+          "category": "coffee",
+          "qty": 1,
+          "unitPrice": 19.0
+        }
+      ],
+      "originalPrice": 27.0,
+      "payPrice": 27.0,
+      "coupon": ""
+    },
+    {
+      "orderId": "202607270176",
+      "createdAt": "2026-07-27T13:46:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(西二旗地铁站店)",
+      "items": [
+        {
+          "code": "SKU49210",
+          "name": "双层吉士汉堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 18.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU62312",
+          "name": "雪碧中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 41.0,
+      "payPrice": 26.0,
+      "coupon": "1+1随心配+中薯条"
+    },
+    {
+      "orderId": "202607270177",
+      "createdAt": "2026-07-27T20:58:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(知春路店)",
+      "items": [
+        {
+          "code": "SKU40197",
+          "name": "麦香鸡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 15.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        }
+      ],
+      "originalPrice": 27.5,
+      "payPrice": 17.5,
+      "coupon": "1+1随心配"
+    },
+    {
+      "orderId": "202607280178",
+      "createdAt": "2026-07-28T12:24:00+08:00",
+      "channel": "delivery",
+      "storeName": "麦当劳(中关村大街店)",
+      "items": [
+        {
+          "code": "SKU52755",
+          "name": "麦辣鸡腿堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 23.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 46.0,
+      "payPrice": 29.5,
+      "coupon": "1+1随心配+中薯条"
+    },
+    {
+      "orderId": "202607280179",
+      "createdAt": "2026-07-28T23:43:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(西二旗地铁站店)",
+      "items": [
+        {
+          "code": "SKU10107",
+          "name": "巨无霸",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 26.0
+        },
+        {
+          "code": "SKU57055",
+          "name": "大薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 15.0
+        },
+        {
+          "code": "SKU57978",
+          "name": "麦旋风奥利奥",
+          "category": "dessert",
+          "qty": 1,
+          "unitPrice": 14.5
+        }
+      ],
+      "originalPrice": 55.5,
+      "payPrice": 42.0,
+      "coupon": "夜宵满减"
+    },
+    {
+      "orderId": "202607290180",
+      "createdAt": "2026-07-29T13:32:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(望京SOHO店)",
+      "items": [
+        {
+          "code": "SKU52755",
+          "name": "麦辣鸡腿堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 23.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 46.0,
+      "payPrice": 29.5,
+      "coupon": "1+1随心配+中薯条"
+    },
+    {
+      "orderId": "202607310181",
+      "createdAt": "2026-07-31T13:40:00+08:00",
+      "channel": "delivery",
+      "storeName": "麦当劳(知春路店)",
+      "items": [
+        {
+          "code": "SKU26383",
+          "name": "那么大鸡排",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 17.0
+        },
+        {
+          "code": "SKU25003",
+          "name": "麦辣鸡翅2块",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 13.0
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 40.5,
+      "payPrice": 28.0,
+      "coupon": "小食组合券"
+    },
+    {
+      "orderId": "202608010182",
+      "createdAt": "2026-08-01T16:29:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(中关村大街店)",
+      "items": [
+        {
+          "code": "SKU85792",
+          "name": "香芋派",
+          "category": "dessert",
+          "qty": 1,
+          "unitPrice": 8.0
+        },
+        {
+          "code": "SKU18478",
+          "name": "拿铁",
+          "category": "coffee",
+          "qty": 1,
+          "unitPrice": 19.0
+        }
+      ],
+      "originalPrice": 27.0,
+      "payPrice": 27.0,
+      "coupon": ""
+    },
+    {
+      "orderId": "202608020183",
+      "createdAt": "2026-08-02T16:32:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(中关村大街店)",
+      "items": [
+        {
+          "code": "SKU57978",
+          "name": "麦旋风奥利奥",
+          "category": "dessert",
+          "qty": 1,
+          "unitPrice": 14.5
+        },
+        {
+          "code": "SKU78170",
+          "name": "原味甜筒",
+          "category": "dessert",
+          "qty": 1,
+          "unitPrice": 4.0
+        }
+      ],
+      "originalPrice": 18.5,
+      "payPrice": 18.5,
+      "coupon": ""
+    },
+    {
+      "orderId": "202608030184",
+      "createdAt": "2026-08-03T12:04:00+08:00",
+      "channel": "delivery",
+      "storeName": "麦当劳(五道口购物中心店)",
+      "items": [
+        {
+          "code": "SKU52755",
+          "name": "麦辣鸡腿堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 23.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 46.0,
+      "payPrice": 29.5,
+      "coupon": "1+1随心配+中薯条"
+    },
+    {
+      "orderId": "202608030185",
+      "createdAt": "2026-08-03T23:30:00+08:00",
+      "channel": "delivery",
+      "storeName": "麦当劳(中关村大街店)",
+      "items": [
+        {
+          "code": "SKU10107",
+          "name": "巨无霸",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 26.0
+        },
+        {
+          "code": "SKU57055",
+          "name": "大薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 15.0
+        },
+        {
+          "code": "SKU57978",
+          "name": "麦旋风奥利奥",
+          "category": "dessert",
+          "qty": 1,
+          "unitPrice": 14.5
+        }
+      ],
+      "originalPrice": 55.5,
+      "payPrice": 42.0,
+      "coupon": "夜宵满减"
+    },
+    {
+      "orderId": "202608050186",
+      "createdAt": "2026-08-05T12:53:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(望京SOHO店)",
+      "items": [
+        {
+          "code": "SKU50377",
+          "name": "麦乐鸡5块",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 15.5
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 38.5,
+      "payPrice": 25.0,
+      "coupon": "小食组合券"
+    },
+    {
+      "orderId": "202608070187",
+      "createdAt": "2026-08-07T08:05:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(知春路店)",
+      "items": [
+        {
+          "code": "SKU15714",
+          "name": "吉士蛋麦满分",
+          "category": "breakfast",
+          "qty": 1,
+          "unitPrice": 14.0
+        },
+        {
+          "code": "SKU18427",
+          "name": "美式咖啡",
+          "category": "coffee",
+          "qty": 1,
+          "unitPrice": 15.0
+        }
+      ],
+      "originalPrice": 29.0,
+      "payPrice": 17.0,
+      "coupon": "早餐组合"
+    },
+    {
+      "orderId": "202608070188",
+      "createdAt": "2026-08-07T20:06:00+08:00",
+      "channel": "dinein",
+      "storeName": "麦当劳(西二旗地铁站店)",
+      "items": [
+        {
+          "code": "SKU40197",
+          "name": "麦香鸡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 15.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        }
+      ],
+      "originalPrice": 27.5,
+      "payPrice": 17.5,
+      "coupon": "1+1随心配"
+    },
+    {
+      "orderId": "202608100189",
+      "createdAt": "2026-08-10T19:42:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(中关村大街店)",
+      "items": [
+        {
+          "code": "SKU40197",
+          "name": "麦香鸡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 15.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        }
+      ],
+      "originalPrice": 27.5,
+      "payPrice": 17.5,
+      "coupon": "1+1随心配"
+    },
+    {
+      "orderId": "202608110190",
+      "createdAt": "2026-08-11T08:12:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(中关村大街店)",
+      "items": [
+        {
+          "code": "SKU49417",
+          "name": "猪柳蛋麦满分",
+          "category": "breakfast",
+          "qty": 1,
+          "unitPrice": 16.5
+        },
+        {
+          "code": "SKU18427",
+          "name": "美式咖啡",
+          "category": "coffee",
+          "qty": 1,
+          "unitPrice": 15.0
+        }
+      ],
+      "originalPrice": 31.5,
+      "payPrice": 19.0,
+      "coupon": "早餐组合"
+    },
+    {
+      "orderId": "202608120191",
+      "createdAt": "2026-08-12T13:16:00+08:00",
+      "channel": "dinein",
+      "storeName": "麦当劳(知春路店)",
+      "items": [
+        {
+          "code": "SKU10107",
+          "name": "巨无霸",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 26.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 49.0,
+      "payPrice": 31.0,
+      "coupon": "超值三件套"
+    },
+    {
+      "orderId": "202608130192",
+      "createdAt": "2026-08-13T13:51:00+08:00",
+      "channel": "delivery",
+      "storeName": "麦当劳(西二旗地铁站店)",
+      "items": [
+        {
+          "code": "SKU50377",
+          "name": "麦乐鸡5块",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 15.5
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 38.5,
+      "payPrice": 25.0,
+      "coupon": "小食组合券"
+    },
+    {
+      "orderId": "202608170193",
+      "createdAt": "2026-08-17T12:04:00+08:00",
+      "channel": "delivery",
+      "storeName": "麦当劳(知春路店)",
+      "items": [
+        {
+          "code": "SKU10107",
+          "name": "巨无霸",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 26.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 49.0,
+      "payPrice": 31.0,
+      "coupon": "超值三件套"
+    },
+    {
+      "orderId": "202608180194",
+      "createdAt": "2026-08-18T12:40:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(知春路店)",
+      "items": [
+        {
+          "code": "SKU10107",
+          "name": "巨无霸",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 26.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 49.0,
+      "payPrice": 31.0,
+      "coupon": "超值三件套"
+    },
+    {
+      "orderId": "202608180195",
+      "createdAt": "2026-08-18T23:36:00+08:00",
+      "channel": "delivery",
+      "storeName": "麦当劳(中关村大街店)",
+      "items": [
+        {
+          "code": "SKU52755",
+          "name": "麦辣鸡腿堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 23.0
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 33.5,
+      "payPrice": 26.0,
+      "coupon": "夜宵满减"
+    },
+    {
+      "orderId": "202608190196",
+      "createdAt": "2026-08-19T23:54:00+08:00",
+      "channel": "delivery",
+      "storeName": "麦当劳(中关村大街店)",
+      "items": [
+        {
+          "code": "SKU52755",
+          "name": "麦辣鸡腿堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 23.0
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 33.5,
+      "payPrice": 26.0,
+      "coupon": "夜宵满减"
+    },
+    {
+      "orderId": "202608240197",
+      "createdAt": "2026-08-24T12:32:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(五道口购物中心店)",
+      "items": [
+        {
+          "code": "SKU49210",
+          "name": "双层吉士汉堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 18.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU62312",
+          "name": "雪碧中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 41.0,
+      "payPrice": 26.0,
+      "coupon": "1+1随心配+中薯条"
+    },
+    {
+      "orderId": "202608250198",
+      "createdAt": "2026-08-25T12:54:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(西二旗地铁站店)",
+      "items": [
+        {
+          "code": "SKU49210",
+          "name": "双层吉士汉堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 18.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU62312",
+          "name": "雪碧中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 41.0,
+      "payPrice": 26.0,
+      "coupon": "1+1随心配+中薯条"
+    },
+    {
+      "orderId": "202608250199",
+      "createdAt": "2026-08-25T22:10:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(中关村大街店)",
+      "items": [
+        {
+          "code": "SKU52755",
+          "name": "麦辣鸡腿堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 23.0
+        },
+        {
+          "code": "SKU25003",
+          "name": "麦辣鸡翅2块",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 13.0
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 46.5,
+      "payPrice": 33.0,
+      "coupon": "夜宵满减"
+    },
+    {
+      "orderId": "202609080200",
+      "createdAt": "2026-09-08T08:29:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(知春路店)",
+      "items": [
+        {
+          "code": "SKU15714",
+          "name": "吉士蛋麦满分",
+          "category": "breakfast",
+          "qty": 1,
+          "unitPrice": 14.0
+        },
+        {
+          "code": "SKU18427",
+          "name": "美式咖啡",
+          "category": "coffee",
+          "qty": 1,
+          "unitPrice": 15.0
+        }
+      ],
+      "originalPrice": 29.0,
+      "payPrice": 17.0,
+      "coupon": "早餐组合"
+    },
+    {
+      "orderId": "202609080201",
+      "createdAt": "2026-09-08T23:26:00+08:00",
+      "channel": "delivery",
+      "storeName": "麦当劳(西二旗地铁站店)",
+      "items": [
+        {
+          "code": "SKU10107",
+          "name": "巨无霸",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 26.0
+        },
+        {
+          "code": "SKU57055",
+          "name": "大薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 15.0
+        },
+        {
+          "code": "SKU57978",
+          "name": "麦旋风奥利奥",
+          "category": "dessert",
+          "qty": 1,
+          "unitPrice": 14.5
+        }
+      ],
+      "originalPrice": 55.5,
+      "payPrice": 42.0,
+      "coupon": "夜宵满减"
+    },
+    {
+      "orderId": "202609090202",
+      "createdAt": "2026-09-09T12:42:00+08:00",
+      "channel": "delivery",
+      "storeName": "麦当劳(西二旗地铁站店)",
+      "items": [
+        {
+          "code": "SKU50377",
+          "name": "麦乐鸡5块",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 15.5
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 38.5,
+      "payPrice": 25.0,
+      "coupon": "小食组合券"
+    },
+    {
+      "orderId": "202609100203",
+      "createdAt": "2026-09-10T12:47:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(西二旗地铁站店)",
+      "items": [
+        {
+          "code": "SKU49210",
+          "name": "双层吉士汉堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 18.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU62312",
+          "name": "雪碧中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 41.0,
+      "payPrice": 26.0,
+      "coupon": "1+1随心配+中薯条"
+    },
+    {
+      "orderId": "202609110204",
+      "createdAt": "2026-09-11T13:51:00+08:00",
+      "channel": "dinein",
+      "storeName": "麦当劳(知春路店)",
+      "items": [
+        {
+          "code": "SKU10107",
+          "name": "巨无霸",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 26.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 49.0,
+      "payPrice": 31.0,
+      "coupon": "超值三件套"
+    },
+    {
+      "orderId": "202609150205",
+      "createdAt": "2026-09-15T12:32:00+08:00",
+      "channel": "delivery",
+      "storeName": "麦当劳(中关村大街店)",
+      "items": [
+        {
+          "code": "SKU26383",
+          "name": "那么大鸡排",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 17.0
+        },
+        {
+          "code": "SKU25003",
+          "name": "麦辣鸡翅2块",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 13.0
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 40.5,
+      "payPrice": 28.0,
+      "coupon": "小食组合券"
+    },
+    {
+      "orderId": "202609180206",
+      "createdAt": "2026-09-18T13:45:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(西二旗地铁站店)",
+      "items": [
+        {
+          "code": "SKU52755",
+          "name": "麦辣鸡腿堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 23.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 46.0,
+      "payPrice": 29.5,
+      "coupon": "1+1随心配+中薯条"
+    },
+    {
+      "orderId": "202609180207",
+      "createdAt": "2026-09-18T23:28:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(知春路店)",
+      "items": [
+        {
+          "code": "SKU10107",
+          "name": "巨无霸",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 26.0
+        },
+        {
+          "code": "SKU57055",
+          "name": "大薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 15.0
+        },
+        {
+          "code": "SKU57978",
+          "name": "麦旋风奥利奥",
+          "category": "dessert",
+          "qty": 1,
+          "unitPrice": 14.5
+        }
+      ],
+      "originalPrice": 55.5,
+      "payPrice": 42.0,
+      "coupon": "夜宵满减"
+    },
+    {
+      "orderId": "202609210209",
+      "createdAt": "2026-09-21T08:35:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(西二旗地铁站店)",
+      "items": [
+        {
+          "code": "SKU49417",
+          "name": "猪柳蛋麦满分",
+          "category": "breakfast",
+          "qty": 1,
+          "unitPrice": 16.5
+        },
+        {
+          "code": "SKU18427",
+          "name": "美式咖啡",
+          "category": "coffee",
+          "qty": 1,
+          "unitPrice": 15.0
+        }
+      ],
+      "originalPrice": 31.5,
+      "payPrice": 19.0,
+      "coupon": "早餐组合"
+    },
+    {
+      "orderId": "202609210208",
+      "createdAt": "2026-09-21T11:04:00+08:00",
+      "channel": "dinein",
+      "storeName": "麦当劳(五道口购物中心店)",
+      "items": [
+        {
+          "code": "SKU10107",
+          "name": "巨无霸",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 26.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 49.0,
+      "payPrice": 31.0,
+      "coupon": "超值三件套"
+    },
+    {
+      "orderId": "202609210210",
+      "createdAt": "2026-09-21T23:19:00+08:00",
+      "channel": "delivery",
+      "storeName": "麦当劳(望京SOHO店)",
+      "items": [
+        {
+          "code": "SKU10107",
+          "name": "巨无霸",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 26.0
+        },
+        {
+          "code": "SKU57055",
+          "name": "大薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 15.0
+        },
+        {
+          "code": "SKU57978",
+          "name": "麦旋风奥利奥",
+          "category": "dessert",
+          "qty": 1,
+          "unitPrice": 14.5
+        }
+      ],
+      "originalPrice": 55.5,
+      "payPrice": 42.0,
+      "coupon": "夜宵满减"
+    },
+    {
+      "orderId": "202609220211",
+      "createdAt": "2026-09-22T13:12:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(知春路店)",
+      "items": [
+        {
+          "code": "SKU50377",
+          "name": "麦乐鸡5块",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 15.5
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 38.5,
+      "payPrice": 25.0,
+      "coupon": "小食组合券"
+    },
+    {
+      "orderId": "202609230212",
+      "createdAt": "2026-09-23T11:46:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(五道口购物中心店)",
+      "items": [
+        {
+          "code": "SKU26383",
+          "name": "那么大鸡排",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 17.0
+        },
+        {
+          "code": "SKU25003",
+          "name": "麦辣鸡翅2块",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 13.0
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 40.5,
+      "payPrice": 28.0,
+      "coupon": "小食组合券"
+    },
+    {
+      "orderId": "202609240213",
+      "createdAt": "2026-09-24T12:42:00+08:00",
+      "channel": "dinein",
+      "storeName": "麦当劳(西二旗地铁站店)",
+      "items": [
+        {
+          "code": "SKU26383",
+          "name": "那么大鸡排",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 17.0
+        },
+        {
+          "code": "SKU25003",
+          "name": "麦辣鸡翅2块",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 13.0
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 40.5,
+      "payPrice": 28.0,
+      "coupon": "小食组合券"
+    },
+    {
+      "orderId": "202609250214",
+      "createdAt": "2026-09-25T12:51:00+08:00",
+      "channel": "dinein",
+      "storeName": "麦当劳(五道口购物中心店)",
+      "items": [
+        {
+          "code": "SKU52755",
+          "name": "麦辣鸡腿堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 23.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 46.0,
+      "payPrice": 29.5,
+      "coupon": "1+1随心配+中薯条"
+    },
+    {
+      "orderId": "202609280215",
+      "createdAt": "2026-09-28T12:56:00+08:00",
+      "channel": "dinein",
+      "storeName": "麦当劳(望京SOHO店)",
+      "items": [
+        {
+          "code": "SKU50377",
+          "name": "麦乐鸡5块",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 15.5
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 38.5,
+      "payPrice": 25.0,
+      "coupon": "小食组合券"
+    },
+    {
+      "orderId": "202609280216",
+      "createdAt": "2026-09-28T23:29:00+08:00",
+      "channel": "delivery",
+      "storeName": "麦当劳(望京SOHO店)",
+      "items": [
+        {
+          "code": "SKU10107",
+          "name": "巨无霸",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 26.0
+        },
+        {
+          "code": "SKU57055",
+          "name": "大薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 15.0
+        },
+        {
+          "code": "SKU57978",
+          "name": "麦旋风奥利奥",
+          "category": "dessert",
+          "qty": 1,
+          "unitPrice": 14.5
+        }
+      ],
+      "originalPrice": 55.5,
+      "payPrice": 42.0,
+      "coupon": "夜宵满减"
+    },
+    {
+      "orderId": "202609300217",
+      "createdAt": "2026-09-30T20:29:00+08:00",
+      "channel": "dinein",
+      "storeName": "麦当劳(中关村大街店)",
+      "items": [
+        {
+          "code": "SKU40197",
+          "name": "麦香鸡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 15.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        }
+      ],
+      "originalPrice": 27.5,
+      "payPrice": 17.5,
+      "coupon": "1+1随心配"
+    },
+    {
+      "orderId": "202610030218",
+      "createdAt": "2026-10-03T16:24:00+08:00",
+      "channel": "dinein",
+      "storeName": "麦当劳(西二旗地铁站店)",
+      "items": [
+        {
+          "code": "SKU57978",
+          "name": "麦旋风奥利奥",
+          "category": "dessert",
+          "qty": 1,
+          "unitPrice": 14.5
+        },
+        {
+          "code": "SKU78170",
+          "name": "原味甜筒",
+          "category": "dessert",
+          "qty": 1,
+          "unitPrice": 4.0
+        }
+      ],
+      "originalPrice": 18.5,
+      "payPrice": 18.5,
+      "coupon": ""
+    },
+    {
+      "orderId": "202610060219",
+      "createdAt": "2026-10-06T12:24:00+08:00",
+      "channel": "dinein",
+      "storeName": "麦当劳(五道口购物中心店)",
+      "items": [
+        {
+          "code": "SKU87613",
+          "name": "板烧鸡腿堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 23.5
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 46.5,
+      "payPrice": 30.0,
+      "coupon": "超值三件套"
+    },
+    {
+      "orderId": "202610060220",
+      "createdAt": "2026-10-06T19:33:00+08:00",
+      "channel": "dinein",
+      "storeName": "麦当劳(西二旗地铁站店)",
+      "items": [
+        {
+          "code": "SKU40197",
+          "name": "麦香鸡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 15.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        }
+      ],
+      "originalPrice": 27.5,
+      "payPrice": 17.5,
+      "coupon": "1+1随心配"
+    },
+    {
+      "orderId": "202610070221",
+      "createdAt": "2026-10-07T12:28:00+08:00",
+      "channel": "dinein",
+      "storeName": "麦当劳(西二旗地铁站店)",
+      "items": [
+        {
+          "code": "SKU87613",
+          "name": "板烧鸡腿堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 23.5
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 46.5,
+      "payPrice": 30.0,
+      "coupon": "超值三件套"
+    },
+    {
+      "orderId": "202610080222",
+      "createdAt": "2026-10-08T11:51:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(望京SOHO店)",
+      "items": [
+        {
+          "code": "SKU10107",
+          "name": "巨无霸",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 26.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 49.0,
+      "payPrice": 31.0,
+      "coupon": "超值三件套"
+    },
+    {
+      "orderId": "202610130223",
+      "createdAt": "2026-10-13T13:04:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(西二旗地铁站店)",
+      "items": [
+        {
+          "code": "SKU52755",
+          "name": "麦辣鸡腿堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 23.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 46.0,
+      "payPrice": 29.5,
+      "coupon": "1+1随心配+中薯条"
+    },
+    {
+      "orderId": "202610160224",
+      "createdAt": "2026-10-16T12:08:00+08:00",
+      "channel": "delivery",
+      "storeName": "麦当劳(西二旗地铁站店)",
+      "items": [
+        {
+          "code": "SKU52755",
+          "name": "麦辣鸡腿堡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 23.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 46.0,
+      "payPrice": 29.5,
+      "coupon": "1+1随心配+中薯条"
+    },
+    {
+      "orderId": "202610160225",
+      "createdAt": "2026-10-16T23:35:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(西二旗地铁站店)",
+      "items": [
+        {
+          "code": "SKU10107",
+          "name": "巨无霸",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 26.0
+        },
+        {
+          "code": "SKU57055",
+          "name": "大薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 15.0
+        },
+        {
+          "code": "SKU57978",
+          "name": "麦旋风奥利奥",
+          "category": "dessert",
+          "qty": 1,
+          "unitPrice": 14.5
+        }
+      ],
+      "originalPrice": 55.5,
+      "payPrice": 42.0,
+      "coupon": "夜宵满减"
+    },
+    {
+      "orderId": "202610190226",
+      "createdAt": "2026-10-19T13:38:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(望京SOHO店)",
+      "items": [
+        {
+          "code": "SKU26383",
+          "name": "那么大鸡排",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 17.0
+        },
+        {
+          "code": "SKU25003",
+          "name": "麦辣鸡翅2块",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 13.0
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 40.5,
+      "payPrice": 28.0,
+      "coupon": "小食组合券"
+    },
+    {
+      "orderId": "202610200227",
+      "createdAt": "2026-10-20T12:30:00+08:00",
+      "channel": "pickup",
+      "storeName": "麦当劳(五道口购物中心店)",
+      "items": [
+        {
+          "code": "SKU10107",
+          "name": "巨无霸",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 26.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        },
+        {
+          "code": "SKU56163",
+          "name": "可口可乐中",
+          "category": "drink",
+          "qty": 1,
+          "unitPrice": 10.5
+        }
+      ],
+      "originalPrice": 49.0,
+      "payPrice": 31.0,
+      "coupon": "超值三件套"
+    },
+    {
+      "orderId": "202610200229",
+      "createdAt": "2026-10-20T20:57:00+08:00",
+      "channel": "dinein",
+      "storeName": "麦当劳(西二旗地铁站店)",
+      "items": [
+        {
+          "code": "SKU40197",
+          "name": "麦香鸡",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 15.0
+        },
+        {
+          "code": "SKU23066",
+          "name": "中薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 12.5
+        }
+      ],
+      "originalPrice": 27.5,
+      "payPrice": 17.5,
+      "coupon": "1+1随心配"
+    },
+    {
+      "orderId": "202610200228",
+      "createdAt": "2026-10-20T23:33:00+08:00",
+      "channel": "delivery",
+      "storeName": "麦当劳(望京SOHO店)",
+      "items": [
+        {
+          "code": "SKU10107",
+          "name": "巨无霸",
+          "category": "burger",
+          "qty": 1,
+          "unitPrice": 26.0
+        },
+        {
+          "code": "SKU57055",
+          "name": "大薯条",
+          "category": "snack",
+          "qty": 1,
+          "unitPrice": 15.0
+        },
+        {
+          "code": "SKU57978",
+          "name": "麦旋风奥利奥",
+          "category": "dessert",
+          "qty": 1,
+          "unitPrice": 14.5
+        }
+      ],
+      "originalPrice": 55.5,
+      "payPrice": 42.0,
+      "coupon": "夜宵满减"
+    }
+  ]
+}
